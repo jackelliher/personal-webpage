@@ -1,0 +1,23 @@
+﻿@page "/"
+@using frontend.Configuration
+@using Microsoft.Extensions.Options
+@inject IOptions<WebpageContent> Content
+
+<PageTitle>Jack Kelliher Dot Com</PageTitle>
+
+<div id="@ProfileId">
+    <h1>John "Jack" Kelliher</h1>
+    <img id="@ProfileImageId" src="@Content.Value.ProfileImagePath" alt="Embedded image"/>
+
+    @foreach (var article in Content.Value.Articles)
+    {
+        <NamedArticle Name="@article.Title" Content="@article.Content"></NamedArticle>   
+    }
+</div>
+
+@code
+{
+    const string ProfileImageId = "profileImage";
+    const string ProfileId = "profile";
+    const string ArticleFeed = "articleFeed";
+}

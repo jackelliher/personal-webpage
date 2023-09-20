@@ -1,0 +1,21 @@
+﻿<div class="alert alert-secondary mt-4" id="container">
+    <strong class="name">@Name</strong>
+
+    <article>
+        @Content
+    </article>
+</div>
+
+@code {
+    /// <summary>
+    /// Name / title of article
+    /// </summary>
+    [Parameter]
+    public string? Name { get; set; }
+
+    /// <summary>
+    /// Article text
+    /// </summary>>
+    [Parameter]
+    public string? Content { get; set; }
+}

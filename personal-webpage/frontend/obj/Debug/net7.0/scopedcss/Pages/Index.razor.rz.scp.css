@@ -1,0 +1,10 @@
+#profile[b-3m3dcnzeek] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+}
+
+#profileImage[b-3m3dcnzeek] {
+    width:100%;
+}
