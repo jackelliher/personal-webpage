@@ -7,4 +7,15 @@
 
 #profileImage[b-3m3dcnzeek] {
     width:100%;
+    position: absolute;
+    scale:95%;
+}
+
+#container[b-3m3dcnzeek] {
+    position: relative;
+}
+
+#frame[b-3m3dcnzeek] {
+    overflow: hidden;
+    position: relative;
 }

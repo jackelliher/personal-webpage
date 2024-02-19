@@ -34,3 +34,6 @@ C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\obj\Debug\net7.
 C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\me-tetons.jpeg
 C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\obj\Debug\net7.0\scopedcss\Pages\Index.razor.rz.scp.css
 C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\arthur.jpg
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\arthur.png
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\background.png
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\frame.png

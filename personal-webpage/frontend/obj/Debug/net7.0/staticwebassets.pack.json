@@ -61,6 +61,18 @@
       "PackagePath": "staticwebassets\\images\\arthur.jpg"
     },
     {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\arthur.png",
+      "PackagePath": "staticwebassets\\images\\arthur.png"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\background.png",
+      "PackagePath": "staticwebassets\\images\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\frame.png",
+      "PackagePath": "staticwebassets\\images\\frame.png"
+    },
+    {
       "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\me-tetons.jpeg",
       "PackagePath": "staticwebassets\\images\\me-tetons.jpeg"
     },

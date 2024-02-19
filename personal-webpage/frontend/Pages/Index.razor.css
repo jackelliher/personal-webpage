@@ -7,4 +7,15 @@
 
 #profileImage {
     width:100%;
+    position: absolute;
+    scale:95%;
+}
+
+#container {
+    position: relative;
+}
+
+#frame {
+    overflow: hidden;
+    position: relative;
 }

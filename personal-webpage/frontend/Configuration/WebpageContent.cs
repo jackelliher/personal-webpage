@@ -5,12 +5,14 @@ public class WebpageContent
     public string ProfileImagePath { get; set; } = string.Empty;
     public IEnumerable<Article> Articles { get; set; } = Enumerable.Empty<Article>();
     public IEnumerable<Link> Links { get; set; } = Enumerable.Empty<Link>();
+    public string BackgroundImagePath { get; set; } = string.Empty;
+    public string FramePath { get; set; } = string.Empty;
 }
 
 public class Link
 {
-    public string Href { get; set; }
-    public string DisplayText { get; set; }
+    public string Href { get; set; } = string.Empty;
+    public string DisplayText { get; set; } = string.Empty;
     public string? Description { get; set; }
 }
 
