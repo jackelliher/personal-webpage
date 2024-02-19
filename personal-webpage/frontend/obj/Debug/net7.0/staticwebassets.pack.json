@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\arthur.jpg",
+      "PackagePath": "staticwebassets\\images\\arthur.jpg"
+    },
+    {
       "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\me-tetons.jpeg",
       "PackagePath": "staticwebassets\\images\\me-tetons.jpeg"
     },

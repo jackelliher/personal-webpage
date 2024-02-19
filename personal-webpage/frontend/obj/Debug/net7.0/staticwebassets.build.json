@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zaXR1mn4kwdIwUJC5WaQGzoAbONbmr7GcM32qxz1UVI=",
+  "Hash": "Gp7X+kQT2EYyuMVGZk8IynvuCSGKJJ3zSsM9it/UpGU=",
   "Source": "frontend",
   "BasePath": "_content/frontend",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\arthur.jpg",
+      "SourceId": "frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\",
+      "BasePath": "_content/frontend",
+      "RelativePath": "images/arthur.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\arthur.jpg"
     },
     {
       "Identity": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\me-tetons.jpeg",
