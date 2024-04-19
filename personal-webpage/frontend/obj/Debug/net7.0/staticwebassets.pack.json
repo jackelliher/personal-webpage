@@ -69,12 +69,60 @@
       "PackagePath": "staticwebassets\\images\\background.png"
     },
     {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\background.xcf",
+      "PackagePath": "staticwebassets\\images\\background.xcf"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\corner_frame.png",
+      "PackagePath": "staticwebassets\\images\\corner_frame.png"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\corner_frame.xcf",
+      "PackagePath": "staticwebassets\\images\\corner_frame.xcf"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\fossil-rock.jpg",
+      "PackagePath": "staticwebassets\\images\\fossil-rock.jpg"
+    },
+    {
       "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\frame.png",
       "PackagePath": "staticwebassets\\images\\frame.png"
     },
     {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\frame_side.xcf",
+      "PackagePath": "staticwebassets\\images\\frame_side.xcf"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\framed_arthur.png",
+      "PackagePath": "staticwebassets\\images\\framed_arthur.png"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\framed_arthur.xcf",
+      "PackagePath": "staticwebassets\\images\\framed_arthur.xcf"
+    },
+    {
       "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\me-tetons.jpeg",
       "PackagePath": "staticwebassets\\images\\me-tetons.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\side_frame.png",
+      "PackagePath": "staticwebassets\\images\\side_frame.png"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\skies.jpg",
+      "PackagePath": "staticwebassets\\images\\skies.jpg"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\title_frame.png",
+      "PackagePath": "staticwebassets\\images\\title_frame.png"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\title_frame.xcf",
+      "PackagePath": "staticwebassets\\images\\title_frame.xcf"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\top_frame.png",
+      "PackagePath": "staticwebassets\\images\\top_frame.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.frontend.props",

@@ -2,26 +2,75 @@
 @using frontend.Configuration
 @using Microsoft.Extensions.Options
 @inject IOptions<WebpageContent> Content
+@inject ILogger Logger
+@inject IJSRuntime Js
 
 <PageTitle>Jack Kelliher Dot Com</PageTitle>
 
-<div id="@ProfileId">
-    <h1>John "Jack" Kelliher</h1>
-    <div id="@ContainerId">
-        <img id="@ProfileImageId" src="@Content.Value.ProfileImagePath" alt="Embedded image"/>
-        <img id="@FrameId" src="@Content.Value.FramePath" alt="Embedded image"/>
+<div id="@ProfileId" style="background-image: url('@Content.Value.WallImagePath')">
+    <img id="@LeftFrameId" src="@Content.Value.SideFramePath" alt="left frame"/>
+    <img id="@RightFrameId" src="@Content.Value.SideFramePath" alt="right frame"/>
+
+    <div id="@TitleId" class="@Shadow">
+        <div id="@TitleBackgroundId" class="alert alert-secondary mt-4"></div>
+        <h1>John Kelliher</h1>
+        <img src="@Content.Value.TitlePath" alt="Title"/>
     </div>
+
+    @* <div id="@ContainerId"> *@
+    @*     <img id="@ProfileImageId" src="@Content.Value.ProfileImagePath" alt="Embedded image"/> *@
+    @*     <img id="@FrameId" src="@Content.Value.FramePath" alt="Embedded image"/> *@
+    @* </div> *@
+    @* <SquareFramedImage ImageSource="@Content.Value.ProfileImagePath"  FrameSource="@Content.Value.FramePath"/> *@
+    <img id="@ProfileImageId" class="@Shadow" src="@Content.Value.ProfileImagePath" alt="Embedded image"/>
+
+    <div id="@SpacerId"></div>
 
     @foreach (var article in Content.Value.Articles)
     {
-        <NamedArticle Name="@article.Title" Content="@article.Content"></NamedArticle>   
+        <NamedArticle2
+            Name="@article.Title"
+            Content="@article.Content"
+            MaxWidth=MaxArticleWidth
+            TopFramePath="@Content.Value.TopFramePath"
+            SideFramePath="@Content.Value.SideFramePath"
+            CornerFramePath="@Content.Value.CornerFramePath"></NamedArticle2>
     }
+
+    <img @ref="ProfileImageElement" id="@ImageMeasurer" src="@Content.Value.ProfileImagePath" alt="boo!"/>
 </div>
 
 @code
 {
-    const string ProfileImageId = "profileImage";
     const string ProfileId = "profile";
-    const string FrameId = "frame";
-    const string ContainerId = "container";
+    const string ProfileImageId = "profileImage";
+    const string ImageMeasurer = "imageMeasurer";
+    const string TitleId = "title";
+    const string TitleBackgroundId = "titleBackground";
+    const string SpacerId = "spacer";
+
+    private async Task<int> GetImageWidthAsync()
+    {
+        if (ProfileImageElement is null)
+        {
+            return 600;
+        }
+
+        return await Js.InvokeAsync<int>("getImageWidth", ProfileImageElement);
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            MaxArticleWidth = await GetImageWidthAsync();
+            StateHasChanged();
+        }
+    }
+
+    private ElementReference? ProfileImageElement { get; set; }
+    private int MaxArticleWidth { get; set; }
+    private const string Shadow = "shadow";
+    private const string RightFrameId = "rightFrame";
+    private const string LeftFrameId = "leftFrame";
 }

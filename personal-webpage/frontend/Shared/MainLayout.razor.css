@@ -3,10 +3,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+}
+
+.page > * {
+    max-width: 100%;
+}
+
+.background {
+    position: absolute;
 }
 
 main {
     flex: 1;
+    max-width: 750px;
 }
 
 .sidebar {
@@ -27,15 +37,15 @@ main {
     padding: 5px
 }
 
-    .top-row ::deep a, .top-row .btn-link {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-    }
+.top-row ::deep a, .top-row .btn-link {
+    white-space: nowrap;
+    margin-left: 1.5rem;
+}
 
-    .top-row a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+.top-row a:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 @media {
     .top-row.auth {
@@ -60,9 +70,10 @@ main {
         top: 0;
         z-index: 1;
     }
-
-    .top-row, article {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
+    
+    .background {
+        position: absolute;
+        width:100%;
+        z-index: -100;
     }
 }

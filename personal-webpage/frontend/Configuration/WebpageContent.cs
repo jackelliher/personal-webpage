@@ -7,6 +7,11 @@ public class WebpageContent
     public IEnumerable<Link> Links { get; set; } = Enumerable.Empty<Link>();
     public string BackgroundImagePath { get; set; } = string.Empty;
     public string FramePath { get; set; } = string.Empty;
+    public string TitlePath { get; set; } = string.Empty;
+    public string WallImagePath { get; set; } = string.Empty;
+    public string TopFramePath { get; set; } = string.Empty;
+    public string SideFramePath { get; set; } = string.Empty;
+    public string CornerFramePath { get; set; } = string.Empty;
 }
 
 public class Link

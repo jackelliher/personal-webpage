@@ -3,10 +3,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+}
+
+.page > *[b-8whw3tcjxp] {
+    max-width: 100%;
+}
+
+.background[b-8whw3tcjxp] {
+    position: absolute;
 }
 
 main[b-8whw3tcjxp] {
     flex: 1;
+    max-width: 750px;
 }
 
 .sidebar[b-8whw3tcjxp] {
@@ -27,15 +37,15 @@ main[b-8whw3tcjxp] {
     padding: 5px
 }
 
-    .top-row[b-8whw3tcjxp]  a, .top-row .btn-link[b-8whw3tcjxp] {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-    }
+.top-row[b-8whw3tcjxp]  a, .top-row .btn-link[b-8whw3tcjxp] {
+    white-space: nowrap;
+    margin-left: 1.5rem;
+}
 
-    .top-row a:first-child[b-8whw3tcjxp] {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+.top-row a:first-child[b-8whw3tcjxp] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 @media {
     .top-row.auth[b-8whw3tcjxp] {
@@ -60,9 +70,10 @@ main[b-8whw3tcjxp] {
         top: 0;
         z-index: 1;
     }
-
-    .top-row[b-8whw3tcjxp], article[b-8whw3tcjxp] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
+    
+    .background[b-8whw3tcjxp] {
+        position: absolute;
+        width:100%;
+        z-index: -100;
     }
 }

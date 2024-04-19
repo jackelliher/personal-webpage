@@ -1,4 +1,5 @@
 using frontend.Configuration;
+using Microsoft.JSInterop;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,11 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
 builder.Services.Configure<WebpageContent>(builder.Configuration.GetSection("WebpageContent"));
+builder.Services.AddSingleton<ILogger>(_ =>
+{
+    using var loggerFactory = LoggerFactory.Create(loggingBuilder => loggingBuilder.AddConsole());
+    return loggerFactory.CreateLogger<ILogger>();
+});
 
 var app = builder.Build();
 

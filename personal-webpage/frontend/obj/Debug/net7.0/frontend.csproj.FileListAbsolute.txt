@@ -37,3 +37,17 @@ C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.
 C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\arthur.png
 C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\background.png
 C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\frame.png
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\background.xcf
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\fossil-rock.jpg
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\skies.jpg
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\obj\Debug\net7.0\scopedcss\Shared\SquareFramedImage.razor.rz.scp.css
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\framed_arthur.png
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\framed_arthur.xcf
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\title_frame.png
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\title_frame.xcf
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\frame_side.xcf
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\obj\Debug\net7.0\scopedcss\Shared\NamedArticle2.razor.rz.scp.css
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\side_frame.png
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\top_frame.png
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\corner_frame.png
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\corner_frame.xcf
