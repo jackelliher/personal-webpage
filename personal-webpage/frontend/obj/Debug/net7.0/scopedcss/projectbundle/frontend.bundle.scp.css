@@ -1,18 +1,4 @@
 /* _content/frontend/Pages/Index.razor.rz.scp.css */
-#profile[b-3m3dcnzeek] {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 600px;
-    min-width: 375px;
-    height: 100%;
-    padding: 0 40px;
-}
-
-#profile > *[b-3m3dcnzeek] {
-    max-width: 100%;
-}
-
 #title[b-3m3dcnzeek] {
     position: relative;
     display: inline-block;
@@ -36,6 +22,7 @@
 
 #profileImage[b-3m3dcnzeek] {
     padding: 0 40px;
+    width: 100%;
 }
 
 #title > img[b-3m3dcnzeek] {
@@ -65,27 +52,92 @@
     padding: 0 40px;
 }
 
+#spacer2[b-3m3dcnzeek] {
+    height: 35px;
+}
+
 .shadow[b-3m3dcnzeek] {
     filter: drop-shadow(0px 10px 1px #0000009c);
 }
-
-#rightFrame[b-3m3dcnzeek] {
-    right:0;
-    position:absolute;
-}
-
-
-#leftFrame[b-3m3dcnzeek] {
-    left: 0;
-    position: absolute;
+/* _content/frontend/Shared/Grain.razor.rz.scp.css */
+div[b-opvkqgsiuc] {
+    background:#8d172d;
+    background-image: url(data:image/png;base64,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);
+    width:100px;
+    height:100px;
+    z-index:1000;
 }
 /* _content/frontend/Shared/MainLayout.razor.rz.scp.css */
+#profile[b-8whw3tcjxp] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    min-width: 381px;
+    height: 100%;
+    position: relative;
+}
+
+#profile > *[b-8whw3tcjxp] {
+    max-width: 100%;
+}
+
+#padder[b-8whw3tcjxp] {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    min-width: 381px;
+    height: 100%;
+    position: relative;
+}
+
+#padder > *[b-8whw3tcjxp]{
+    max-width: 100%;
+}
+
+#profile2[b-8whw3tcjxp] {
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    min-width: 381px;
+    height: 100%;
+    padding: 0 40px;
+    position: relative;
+}
+
 .page[b-8whw3tcjxp] {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 100%;
+}
+
+#rightFrame[b-8whw3tcjxp] {
+    right:-5px;
+    position:absolute;
+}
+
+#leftFrame[b-8whw3tcjxp] {
+    left: -5px;
+    position: absolute;
+}
+
+#frameDiv[b-8whw3tcjxp] {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 10%;
+}
+
+.right[b-8whw3tcjxp] {
+    right: 0;
+}
+
+.left[b-8whw3tcjxp] {
+    left: 0;
 }
 
 .page > *[b-8whw3tcjxp] {
@@ -159,6 +211,52 @@ main[b-8whw3tcjxp] {
         z-index: -100;
     }
 }
+
+#footer[b-8whw3tcjxp] {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    flex-grow: 50;
+    padding: 50px;
+}
+
+#footer a[b-8whw3tcjxp] {
+    color: white;
+}
+
+#banner[b-8whw3tcjxp] {
+    width: 100%;
+    padding: 13px 0 45px 0;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 5px 1px #0000009c);
+    position: fixed;
+    z-index:2;
+}
+
+#spacer[b-8whw3tcjxp] {
+    height:100px;
+}
+
+#bannerLink[b-8whw3tcjxp] {
+    padding: 0 15px 3px 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 0 20px;
+    width: 150px;
+    text-after-overflow: "...";
+    text-align: center;
+}
+
+#bannerLink > a[b-8whw3tcjxp] {
+    color: white;
+    text-underline: none !important;
+    font-size: 16pt;
+    text-decoration: none;
+}
 /* _content/frontend/Shared/NamedArticle.razor.rz.scp.css */
 #name[b-nmpwlm38el]
 {
@@ -191,7 +289,7 @@ main[b-8whw3tcjxp] {
 }
 
 #container div[b-4yckmpxq6k] {
-    padding: 30px;
+    padding: 20px 25px 25px 25px;
 }
 
 .left[b-4yckmpxq6k] {
@@ -243,6 +341,170 @@ main[b-8whw3tcjxp] {
 
 .leftFrame[b-4yckmpxq6k] {
     
+}
+/* _content/frontend/Shared/NavFlag.razor.rz.scp.css */
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+
+body[b-zfeu3hjuuc]
+{
+    margin: 0;
+    padding: 0;
+
+    /* make it look decent enough */
+    background: #232323;
+    color: #cdcdcd;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+#menuToggle[b-zfeu3hjuuc]
+{
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle a[b-zfeu3hjuuc]
+{
+    text-decoration: none;
+    color: #232323;
+
+    transition: color 0.3s ease;
+}
+
+#menuToggle a:hover[b-zfeu3hjuuc]
+{
+    color: tomato;
+}
+
+
+#menuToggle input[b-zfeu3hjuuc]
+{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span[b-zfeu3hjuuc]
+{
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;
+}
+
+#menuToggle span:first-child[b-zfeu3hjuuc]
+{
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)[b-zfeu3hjuuc]
+{
+    transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span[b-zfeu3hjuuc]
+{
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)[b-zfeu3hjuuc]
+{
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)[b-zfeu3hjuuc]
+{
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu[b-zfeu3hjuuc]
+{
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li[b-zfeu3hjuuc]
+{
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul[b-zfeu3hjuuc]
+{
+    transform: none;
 }
 /* _content/frontend/Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-szpj9ab99e] {

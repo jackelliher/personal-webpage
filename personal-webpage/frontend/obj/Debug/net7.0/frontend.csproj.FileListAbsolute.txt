@@ -51,3 +51,11 @@ C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.
 C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\top_frame.png
 C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\corner_frame.png
 C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\corner_frame.xcf
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\obj\Debug\net7.0\scopedcss\Shared\NavFlag.razor.rz.scp.css
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\obj\Debug\net7.0\scopedcss\Shared\Grain.razor.rz.scp.css
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\woodtexture.jpg
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\woodtexture.xcf
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\wood_texture.png
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\wood_texture.xcf
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\background2.png
+C:\Users\4mod3\source\personal-webpage\personal-webpage\frontend\bin\Debug\net7.0\wwwroot\images\red.png

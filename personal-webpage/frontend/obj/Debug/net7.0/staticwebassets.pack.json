@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets\\images\\background.xcf"
     },
     {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\background2.png",
+      "PackagePath": "staticwebassets\\images\\background2.png"
+    },
+    {
       "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\corner_frame.png",
       "PackagePath": "staticwebassets\\images\\corner_frame.png"
     },
@@ -105,6 +109,10 @@
       "PackagePath": "staticwebassets\\images\\me-tetons.jpeg"
     },
     {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\red.png",
+      "PackagePath": "staticwebassets\\images\\red.png"
+    },
+    {
       "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\side_frame.png",
       "PackagePath": "staticwebassets\\images\\side_frame.png"
     },
@@ -123,6 +131,22 @@
     {
       "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\top_frame.png",
       "PackagePath": "staticwebassets\\images\\top_frame.png"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\wood_texture.png",
+      "PackagePath": "staticwebassets\\images\\wood_texture.png"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\wood_texture.xcf",
+      "PackagePath": "staticwebassets\\images\\wood_texture.xcf"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\woodtexture.jpg",
+      "PackagePath": "staticwebassets\\images\\woodtexture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\4mod3\\source\\personal-webpage\\personal-webpage\\frontend\\wwwroot\\images\\woodtexture.xcf",
+      "PackagePath": "staticwebassets\\images\\woodtexture.xcf"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.frontend.props",

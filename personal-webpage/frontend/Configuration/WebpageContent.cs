@@ -12,6 +12,8 @@ public class WebpageContent
     public string TopFramePath { get; set; } = string.Empty;
     public string SideFramePath { get; set; } = string.Empty;
     public string CornerFramePath { get; set; } = string.Empty;
+    public string TopRowPath { get; set; } = string.Empty;
+    public string RedPath { get; set; } = string.Empty;
 }
 
 public class Link

@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3m3dcnzeek
 
+[C:/Users/4mod3/source/personal-webpage/personal-webpage/frontend/Shared/Grain.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEdyYWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-opvkqgsiuc
+
 [C:/Users/4mod3/source/personal-webpage/personal-webpage/frontend/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-8whw3tcjxp
@@ -43,6 +47,10 @@ build_metadata.AdditionalFiles.CssScope = b-nmpwlm38el
 [C:/Users/4mod3/source/personal-webpage/personal-webpage/frontend/Shared/NamedArticle2.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hbWVkQXJ0aWNsZTIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4yckmpxq6k
+
+[C:/Users/4mod3/source/personal-webpage/personal-webpage/frontend/Shared/NavFlag.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdkZsYWcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-zfeu3hjuuc
 
 [C:/Users/4mod3/source/personal-webpage/personal-webpage/frontend/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
