@@ -1,0 +1,11 @@
+#name
+{
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%
+}

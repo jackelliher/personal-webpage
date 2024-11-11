@@ -1,0 +1,1187 @@
+Debug | ByteBufferAsyncProcessor  | 38:DefaultDispatcher-worker-17 | PAUSE ('Socket not connected') :: {id = EarlyStartServerWire/Sender, state = 'Initialized'} 
+Debug | Server                    | 62:EarlyStartServerWire | EarlyStartServerWire: listening /127.0.0.1:46197 
+Installation home directory: file:////nix/store/8k0czxs4x50hl8jiavkhfggzrbl3sa24-rider-2024.2.7/rider
+System directory: file:////home/aristotle/.cache/JetBrains/Rider2024.2
+Config directory: file:////home/aristotle/.config/JetBrains/Rider2024.2
+Log directory: file:////home/aristotle/.cache/JetBrains/Rider2024.2/log
+Info  | Server                    | 47:DefaultDispatcher-worker-19 | EarlyStartServerWire: start terminating lifetime 
+Debug | Server                    | 47:DefaultDispatcher-worker-19 | EarlyStartServerWire: shutting down ack sending executor 
+Debug | Server                    | 47:DefaultDispatcher-worker-19 | EarlyStartServerWire: send buffer stopped, success: true 
+Debug | Server                    | 47:DefaultDispatcher-worker-19 | EarlyStartServerWire: closing socket 
+Info  | Server                    | 47:DefaultDispatcher-worker-19 | EarlyStartServerWire: termination finished 
+Debug | Server                    | 62:EarlyStartServerWire | EarlyStartServerWire closed with exception: java.net.SocketException: Socket closed 
+Debug | Server                    | 62:EarlyStartServerWire | EarlyStartServerWire: waiting for reconnection on /127.0.0.1:46197. 
+Debug | Server                    | 62:EarlyStartServerWire | EarlyStartServerWire: terminated. 
+Debug | ByteBufferAsyncProcessor  | 47:DefaultDispatcher-worker-19 | PAUSE ('Socket not connected') :: {id = FrontendToBackend/Sender, state = 'Initialized'} 
+Debug | Server                    | 77:FrontendToBackend | FrontendToBackend: listening /127.0.0.1:46731 
+2024-11-10 17:54:46,662 [    822]   WARN - #c.j.r.p.ReSharperProcess - Rider host process has exited by request with exit code 143
+2024-11-10 17:54:51,066 [   5226]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.users.BackendUserManager, plugin=intellij.rider.plugins.cwm)
+2024-11-10 17:54:51,066 [   5226]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.ports.CwmPortForwardingToolWindowManager, plugin=intellij.rider.plugins.cwm)
+2024-11-10 17:54:51,066 [   5226]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.users.BackendCWMUserFocusHost, plugin=intellij.rider.plugins.cwm)
+2024-11-10 17:54:51,066 [   5226]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.FollowMeManagerService, plugin=intellij.rider.plugins.cwm)
+2024-11-10 17:54:51,066 [   5226]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.BackendProjectViewSync, plugin=intellij.rider.plugins.cwm)
+2024-11-10 17:54:51,066 [   5226]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.BackendFollowMeEditorsHost, plugin=intellij.rider.plugins.cwm)
+2024-11-10 17:54:51,066 [   5226]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.BackendFollowMeDebuggerHost, plugin=intellij.rider.plugins.cwm)
+2024-11-10 17:54:51,066 [   5226]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.FollowMeLookupSynchronizer, plugin=intellij.rider.plugins.cwm)
+2024-11-10 17:54:51,067 [   5227]   WARN - #c.i.s.ComponentManagerImpl - `preload=NOT_HEADLESS` must be used only for core services (service=com.jetbrains.rdserver.toolWindow.BackendServerToolWindowManager, plugin=intellij.rider.plugins.cwm)
+2024-11-10 17:54:51,067 [   5227]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.ml.inline.completion.csharp.initializer.CSharpFullLineModelInitializer, plugin=com.intellij.ml.inline.completion)
+2024-11-10 17:54:51,067 [   5227]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.jetbrains.rider.web.RiderLspServerInvalidator, plugin=com.jetbrains.rider.razor)
+2024-11-10 17:54:51,067 [   5227]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.jetbrains.rider.razor.services.formatting.RiderHtmlCodeStyleSettingsSynchronizer$Manager, plugin=com.jetbrains.rider.razor)
+2024-11-10 17:54:52,059 [   6219]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 17:54:52,399 [   6559]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 17:54:52,569 [   6729]   WARN - #o.j.p.t.TextMateService - Cannot find referenced file `./syntaxes/asp-vb-net.tmLanguage.json` in bundle `/nix/store/8k0czxs4x50hl8jiavkhfggzrbl3sa24-rider-2024.2.7/rider/plugins/textmate/lib/bundles/vb`
+2024-11-10 17:54:52,751 [   6911]   WARN - #o.j.p.t.TextMateService - Cannot find referenced file `./syntaxes/asp-vb-net.tmLanguage.json` in bundle `/nix/store/8k0czxs4x50hl8jiavkhfggzrbl3sa24-rider-2024.2.7/rider/plugins/textmate/lib/bundles/vb`
+2024-11-10 17:54:53,061 [   7221]   WARN - #o.j.p.t.TextMateService - Cannot find referenced file `./syntaxes/asp-vb-net.tmLanguage.json` in bundle `/nix/store/8k0czxs4x50hl8jiavkhfggzrbl3sa24-rider-2024.2.7/rider/plugins/textmate/lib/bundles/vb`
+2024-11-10 17:54:57,047 [  11207] SEVERE - Projected Logger - IdeaLoggingEvent[message=Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.
+
+--- EXCEPTION #1/2 [FileNotFoundException]
+“ERROR RENDERING EXCEPTION” = “
+  System.TypeLoadException: Could not load type 'System.Runtime.CompilerServices.NullableContextAttribute' from assembly 'System.Runtime, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+     at System.ModuleHandle.ResolveType(QCallModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+     at System.ModuleHandle.ResolveTypeHandle(Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+     at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+     at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctorWithParameters, Boolean& isVarArg)
+     at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+     at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+     at System.Exception.get_SerializationStackTraceString()
+     at System.Exception.GetObjectData(SerializationInfo info, StreamingContext context)
+     at System.IO.FileNotFoundException.GetObjectData(SerializationInfo info, StreamingContext context)
+     at JetBrains.Util.ExceptionRenderer.HierarchicalDataEntry.GetChildren()
+     at JetBrains.Util.ExceptionRenderer.<>c.<RenderSingleExceptionObject>b__23_0(HierarchicalDataEntry entry)
+     at JetBrains.Util.Graph.GraphAlgorithms.DepthFirstSearch[TNode](IEnumerable`1 rootcollection, Func`2 FGetLinkedNodes, PassingOnWayDownDelegate`1 FEnteringOnWayDown, Action`1 FPassingOnWayDownSimple, Action`1 FPassingOnWayUp)
+     at JetBrains.Util.ExceptionRenderer.RenderSingleExceptionObject(ExData exd, Boolean renderSensitiveData)
+     at JetBrains.Util.ExceptionRenderer.CollectExDatas(Exception exception, Boolean renderSensitiveData)
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ReSharper.Features.Running.RunnableProjectFactory.CreateRunnableProjects(IProject project) in CreateRunnableProjects.il:line IL_00A4 mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.ProjectAdded(IProject project) in ProjectAdded.il:line IL_000B mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.Refresh(IProjectMark projectMark) in Refresh.il:line IL_0069 mvid 9748
+     at JetBrains.ReSharper.Features.Running.Refreshers.ProjectModelRefresher.<VisitItemDelta>g__FireRefresh|2_2(IProject project) in ProjectModelRefresher.il:line IL_0010 mvid 9748 or ProjectModelRefresher.il:line IL_0021 mvid 9748
+     at JetBrains.ReSharper.Features.Running.Refreshers.ProjectModelRefresher.VisitItemDelta(ProjectItemChange change) in VisitItemDelta.il:line IL_0088 mvid 9748 or VisitItemDelta.il:line IL_00A5 mvid 9748
+     at JetBrains.ProjectModel.ProjectItemChange.Accept(IProjectModelChangeDeltaVisitor visitor) in Accept.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitDelta(ProjectModelChange changeDelta) in VisitDelta.il:line IL_0020 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitItemDelta(ProjectItemChange change) in VisitItemDelta.il:line IL_0012 mvid B48E
+     at JetBrains.ReSharper.Features.Running.Refreshers.ProjectModelRefresher.VisitItemDelta(ProjectItemChange change) in VisitItemDelta.il:line IL_0088 mvid 9748 or VisitItemDelta.il:line IL_00A5 mvid 9748
+     at JetBrains.ProjectModel.ProjectItemChange.Accept(IProjectModelChangeDeltaVisitor visitor) in Accept.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitDelta(ProjectModelChange changeDelta) in VisitDelta.il:line IL_0020 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitItemDelta(ProjectItemChange change) in VisitItemDelta.il:line IL_0012 mvid B48E
+     at JetBrains.ReSharper.Features.Running.Refreshers.ProjectModelRefresher.VisitItemDelta(ProjectItemChange change) in VisitItemDelta.il:line IL_0088 mvid 9748 or VisitItemDelta.il:line IL_00A5 mvid 9748
+     at JetBrains.ProjectModel.ProjectItemChange.Accept(IProjectModelChangeDeltaVisitor visitor) in Accept.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitDelta(ProjectModelChange changeDelta) in VisitDelta.il:line IL_0020 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitSolutionDelta(SolutionChange change) in VisitSolutionDelta.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.SolutionChange.Accept(IProjectModelChangeDeltaVisitor visitor) in Accept.il:line IL_0000 mvid B48E
+     at JetBrains.ReSharper.Features.Running.Refreshers.ProjectModelRefresher.<>c__DisplayClass1_0.<.ctor>b__0(ChangeEventArgs change) in ProjectModelRefresher.il:line IL_0010 mvid 9748 or ProjectModelRefresher.il:line IL_0021 mvid 9748
+     at JetBrains.DataFlow.Signal`1.Fire(TValue value, Object cookie) in Fire.il:line IL_0000 mvid 6B9F or Fire.il:line IL_0054 mvid 6B9F
+     at JetBrains.DataFlow.Signal`1.Fire(TValue value) in Fire.il:line IL_0000 mvid 6B9F or Fire.il:line IL_0054 mvid 6B9F
+     at JetBrains.Application.changes.ChangeManagerImpl.OnProviderChanged(IChangeProvider changeProvider, Object change, ITaskExecutor executor) in OnProviderChanged.il:line IL_0121 mvid 9148
+     at JetBrains.ProjectModel.Transaction.ProjectModelBatchChangeManager.<>c__DisplayClass8_0.<EndTransaction>b__0() in ProjectModelBatchChangeManager.il:line IL_0030 mvid B48E
+     at JetBrains.Application.changes.ChangeManagerImpl.ExecuteAfterChange(Action action) in ExecuteAfterChange.il:line IL_0042 mvid 9148
+     at JetBrains.ProjectModel.Transaction.ProjectModelBatchChangeManager.EndTransaction(ProjectModelBatchChange projectModelBatchChange, ITaskExecutor executor) in EndTransaction.il:line IL_008F mvid B48E
+     at JetBrains.ProjectModel.Impl.ProjectModelBatchChange.Commit(ITaskExecutor executor) in Commit.il:line IL_0013 mvid B48E
+     at JetBrains.ProjectModel.Transaction.ProjectModelBatchChangeCookie.Dispose() in Dispose.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.ProjectManagerInitializer.<>c__DisplayClass3_0.<ScheduleRaiseAllProjectsAdded>b__0() in ProjectManagerInitializer.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerBase.<>c__DisplayClass23_0.<ExecuteTask>b__1() in SolutionLoadTasksSchedulerBase.il:line IL_0021 mvid B48E
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerBase.ExecuteTask(SolutionLoadTask task) in ExecuteTask.il:line IL_003E mvid B48E
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerAsync.<Schedule>b__6_0() in SolutionLoadTasksSchedulerAsync.il:line IL_000A mvid B48E
+     at JetBrains.Application.Threading.IShellLocksEx.ExecuteWithReadLock(IShellLocks shellLocks, Action action) in ExecuteWithReadLock.il:line IL_0027 mvid 9148
+     at JetBrains.Application.Threading.IShellLocksEx.<>c__DisplayClass11_0.<QueueReadLock>b__0()
+     at JetBrains.Threading.ReentrancyGuardEx.<>c__DisplayClass0_1.<Queue>b__3() in ReentrancyGuardEx.il:line IL_0022 mvid 6B9F
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.ReentrancyGuard.QueuedAction.<>c__DisplayClass2_0.<.ctor>b__0() in QueuedAction.il:line IL_0000 mvid 6B9F
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_0119 mvid 6B9F
+     at JetBrains.Threading.ReentrancyGuard.ExecutePendingActions() in ExecutePendingActions.il:line IL_0054 mvid 6B9F
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.ProcessQueue(Int32 nMinBucket, Int32 nProcessQueueGeneration) in ProcessQueue.il:line IL_01D0 mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.<>c__DisplayClass60_0.<ScheduleQueueProcessingOnNativeMarshaller>g__ProcessQueueWithPriority|0() in JetDispatcher.il:line IL_0000 mvid 6B9F
+     at JetBrains.Threading.RunsAndSleeps.RunOrSleep(Func`1 FCondition, IProperty`1 propCondition, TimeSpan timeout, OnWaitTimeout ontimeout) in RunOrSleep.il:line IL_03AC mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Run(IProperty`1 condition, TimeSpan timeout, Boolean bThrowOnTimeout) in Run.il:line IL_0005 mvid 6B9F
+     at JetBrains.Application.Environment.IJetHostEx.<>c__DisplayClass3_0.<RunHostMessageLoop>b__0(Lifetime lifetime) in IJetHostEx.il:line IL_0025 mvid 9148
+     at JetBrains.Lifetimes.Lifetime.Using(Action`1 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Application.Environment.IJetHostEx.RunHostMessageLoop(IComponentContainer containerEnv) in RunHostMessageLoop.il:line IL_0030 mvid 9148
+     at JetBrains.Application.Environment.HostParameters.MessagePumpMainLoopHostMixin.JetBrains.Application.Environment.HostParameters.IRunMainLoopHostMixin.RunMainLoop(ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.RunMainLoop(ComponentContainer containerEnv) in RunMainLoop.il:line IL_009F mvid 9148
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass14_0.<InternalRun>b__0() in JetEnvironment.il:line IL_0000 mvid 9148
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(OuterLifetime lifetime, String name, Action action, TaskPriority priority, Nullable`1 limit) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(String name, Action action, TaskPriority priority) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Application.Environment.JetEnvironment.InternalRun(JetHostParametersCaller host, ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_002E mvid 9148
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 9148
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_00B4 mvid 89A6
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid 89A6
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0058 mvid 89A6
+”
+, throwable=com.jetbrains.rd.platform.diagnostics.BackendException: Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.
+
+--- EXCEPTION #1/2 [FileNotFoundException]
+“ERROR RENDERING EXCEPTION” = “
+  System.TypeLoadException: Could not load type 'System.Runtime.CompilerServices.NullableContextAttribute' from assembly 'System.Runtime, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+     at System.ModuleHandle.ResolveType(QCallModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+     at System.ModuleHandle.ResolveTypeHandle(Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+     at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+     at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctorWithParameters, Boolean& isVarArg)
+     at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+     at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+     at System.Exception.get_SerializationStackTraceString()
+     at System.Exception.GetObjectData(SerializationInfo info, StreamingContext context)
+     at System.IO.FileNotFoundException.GetObjectData(SerializationInfo info, StreamingContext context)
+     at JetBrains.Util.ExceptionRenderer.HierarchicalDataEntry.GetChildren()
+     at JetBrains.Util.ExceptionRenderer.<>c.<RenderSingleExceptionObject>b__23_0(HierarchicalDataEntry entry)
+     at JetBrains.Util.Graph.GraphAlgorithms.DepthFirstSearch[TNode](IEnumerable`1 rootcollection, Func`2 FGetLinkedNodes, PassingOnWayDownDelegate`1 FEnteringOnWayDown, Action`1 FPassingOnWayDownSimple, Action`1 FPassingOnWayUp)
+     at JetBrains.Util.ExceptionRenderer.RenderSingleExceptionObject(ExData exd, Boolean renderSensitiveData)
+     at JetBrains.Util.ExceptionRenderer.CollectExDatas(Exception exception, Boolean renderSensitiveData)
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ReSharper.Features.Running.RunnableProjectFactory.CreateRunnableProjects(IProject project) in CreateRunnableProjects.il:line IL_00A4 mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.ProjectAdded(IProject project) in ProjectAdded.il:line IL_000B mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.Refresh(IProjectMark projectMark) in Refresh.il:line IL_0069 mvid 9748
+     at JetBrains.ReSharper.Features.Running.Refreshers.ProjectModelRefresher.<VisitItemDelta>g__FireRefresh|2_2(IProject project) in ProjectModelRefresher.il:line IL_0010 mvid 9748 or ProjectModelRefresher.il:line IL_0021 mvid 9748
+     at JetBrains.ReSharper.Features.Running.Refreshers.ProjectModelRefresher.VisitItemDelta(ProjectItemChange change) in VisitItemDelta.il:line IL_0088 mvid 9748 or VisitItemDelta.il:line IL_00A5 mvid 9748
+     at JetBrains.ProjectModel.ProjectItemChange.Accept(IProjectModelChangeDeltaVisitor visitor) in Accept.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitDelta(ProjectModelChange changeDelta) in VisitDelta.il:line IL_0020 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitItemDelta(ProjectItemChange change) in VisitItemDelta.il:line IL_0012 mvid B48E
+     at JetBrains.ReSharper.Features.Running.Refreshers.ProjectModelRefresher.VisitItemDelta(ProjectItemChange change) in VisitItemDelta.il:line IL_0088 mvid 9748 or VisitItemDelta.il:line IL_00A5 mvid 9748
+     at JetBrains.ProjectModel.ProjectItemChange.Accept(IProjectModelChangeDeltaVisitor visitor) in Accept.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitDelta(ProjectModelChange changeDelta) in VisitDelta.il:line IL_0020 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitItemDelta(ProjectItemChange change) in VisitItemDelta.il:line IL_0012 mvid B48E
+     at JetBrains.ReSharper.Features.Running.Refreshers.ProjectModelRefresher.VisitItemDelta(ProjectItemChange change) in VisitItemDelta.il:line IL_0088 mvid 9748 or VisitItemDelta.il:line IL_00A5 mvid 9748
+     at JetBrains.ProjectModel.ProjectItemChange.Accept(IProjectModelChangeDeltaVisitor visitor) in Accept.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitDelta(ProjectModelChange changeDelta) in VisitDelta.il:line IL_0020 mvid B48E
+     at JetBrains.ProjectModel.RecursiveProjectModelChangeDeltaVisitor.VisitSolutionDelta(SolutionChange change) in VisitSolutionDelta.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.SolutionChange.Accept(IProjectModelChangeDeltaVisitor visitor) in Accept.il:line IL_0000 mvid B48E
+     at JetBrains.ReSharper.Features.Running.Refreshers.ProjectModelRefresher.<>c__DisplayClass1_0.<.ctor>b__0(ChangeEventArgs change) in ProjectModelRefresher.il:line IL_0010 mvid 9748 or ProjectModelRefresher.il:line IL_0021 mvid 9748
+     at JetBrains.DataFlow.Signal`1.Fire(TValue value, Object cookie) in Fire.il:line IL_0000 mvid 6B9F or Fire.il:line IL_0054 mvid 6B9F
+     at JetBrains.DataFlow.Signal`1.Fire(TValue value) in Fire.il:line IL_0000 mvid 6B9F or Fire.il:line IL_0054 mvid 6B9F
+     at JetBrains.Application.changes.ChangeManagerImpl.OnProviderChanged(IChangeProvider changeProvider, Object change, ITaskExecutor executor) in OnProviderChanged.il:line IL_0121 mvid 9148
+     at JetBrains.ProjectModel.Transaction.ProjectModelBatchChangeManager.<>c__DisplayClass8_0.<EndTransaction>b__0() in ProjectModelBatchChangeManager.il:line IL_0030 mvid B48E
+     at JetBrains.Application.changes.ChangeManagerImpl.ExecuteAfterChange(Action action) in ExecuteAfterChange.il:line IL_0042 mvid 9148
+     at JetBrains.ProjectModel.Transaction.ProjectModelBatchChangeManager.EndTransaction(ProjectModelBatchChange projectModelBatchChange, ITaskExecutor executor) in EndTransaction.il:line IL_008F mvid B48E
+     at JetBrains.ProjectModel.Impl.ProjectModelBatchChange.Commit(ITaskExecutor executor) in Commit.il:line IL_0013 mvid B48E
+     at JetBrains.ProjectModel.Transaction.ProjectModelBatchChangeCookie.Dispose() in Dispose.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.ProjectManagerInitializer.<>c__DisplayClass3_0.<ScheduleRaiseAllProjectsAdded>b__0() in ProjectManagerInitializer.il:line IL_0000 mvid B48E
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerBase.<>c__DisplayClass23_0.<ExecuteTask>b__1() in SolutionLoadTasksSchedulerBase.il:line IL_0021 mvid B48E
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerBase.ExecuteTask(SolutionLoadTask task) in ExecuteTask.il:line IL_003E mvid B48E
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerAsync.<Schedule>b__6_0() in SolutionLoadTasksSchedulerAsync.il:line IL_000A mvid B48E
+     at JetBrains.Application.Threading.IShellLocksEx.ExecuteWithReadLock(IShellLocks shellLocks, Action action) in ExecuteWithReadLock.il:line IL_0027 mvid 9148
+     at JetBrains.Application.Threading.IShellLocksEx.<>c__DisplayClass11_0.<QueueReadLock>b__0()
+     at JetBrains.Threading.ReentrancyGuardEx.<>c__DisplayClass0_1.<Queue>b__3() in ReentrancyGuardEx.il:line IL_0022 mvid 6B9F
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.ReentrancyGuard.QueuedAction.<>c__DisplayClass2_0.<.ctor>b__0() in QueuedAction.il:line IL_0000 mvid 6B9F
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_0119 mvid 6B9F
+     at JetBrains.Threading.ReentrancyGuard.ExecutePendingActions() in ExecutePendingActions.il:line IL_0054 mvid 6B9F
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.ProcessQueue(Int32 nMinBucket, Int32 nProcessQueueGeneration) in ProcessQueue.il:line IL_01D0 mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.<>c__DisplayClass60_0.<ScheduleQueueProcessingOnNativeMarshaller>g__ProcessQueueWithPriority|0() in JetDispatcher.il:line IL_0000 mvid 6B9F
+     at JetBrains.Threading.RunsAndSleeps.RunOrSleep(Func`1 FCondition, IProperty`1 propCondition, TimeSpan timeout, OnWaitTimeout ontimeout) in RunOrSleep.il:line IL_03AC mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Run(IProperty`1 condition, TimeSpan timeout, Boolean bThrowOnTimeout) in Run.il:line IL_0005 mvid 6B9F
+     at JetBrains.Application.Environment.IJetHostEx.<>c__DisplayClass3_0.<RunHostMessageLoop>b__0(Lifetime lifetime) in IJetHostEx.il:line IL_0025 mvid 9148
+     at JetBrains.Lifetimes.Lifetime.Using(Action`1 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Application.Environment.IJetHostEx.RunHostMessageLoop(IComponentContainer containerEnv) in RunHostMessageLoop.il:line IL_0030 mvid 9148
+     at JetBrains.Application.Environment.HostParameters.MessagePumpMainLoopHostMixin.JetBrains.Application.Environment.HostParameters.IRunMainLoopHostMixin.RunMainLoop(ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.RunMainLoop(ComponentContainer containerEnv) in RunMainLoop.il:line IL_009F mvid 9148
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass14_0.<InternalRun>b__0() in JetEnvironment.il:line IL_0000 mvid 9148
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(OuterLifetime lifetime, String name, Action action, TaskPriority priority, Nullable`1 limit) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(String name, Action action, TaskPriority priority) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Application.Environment.JetEnvironment.InternalRun(JetHostParametersCaller host, ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_002E mvid 9148
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 9148
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_00B4 mvid 89A6
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid 89A6
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0058 mvid 89A6
+”
+
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener.fromLogEntry(LoggerModelManager.kt:60)
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener.access$fromLogEntry(LoggerModelManager.kt:23)
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener$extensionCreated$1.invoke(LoggerModelManager.kt:29)
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener$extensionCreated$1.invoke(LoggerModelManager.kt:25)
+	at com.jetbrains.rd.util.reactive.Signal.fire(Signal.kt:32)
+	at com.jetbrains.rd.framework.impl.RdSignal$onWireReceived$2.invoke(RdSignal.kt:33)
+	at com.jetbrains.rd.framework.impl.RdSignal$onWireReceived$2.invoke(RdSignal.kt:31)
+	at com.jetbrains.rd.framework.MessageBroker$RdWireableDispatchHelper$doDispatch$2.invoke(MessageBroker.kt:122)
+	at com.jetbrains.rd.framework.MessageBroker$RdWireableDispatchHelper$doDispatch$2.invoke(MessageBroker.kt:115)
+	at com.jetbrains.rdclient.protocol.RdDispatcher.flushAll(RdDispatcher.kt:112)
+	at com.jetbrains.rdclient.protocol.RdDispatcher.flushAllRunnable$lambda$0(RdDispatcher.kt:33)
+	at com.intellij.concurrency.client.ClientIdPropagation.captureClientIdInRunnable$lambda$3(ClientIdPropagation.kt:43)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:27)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:229)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runIntendedWriteActionOnCurrentThread$lambda$1(AnyThreadWriteThreadingSupport.kt:184)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runIntendedWriteActionOnCurrentThread(AnyThreadWriteThreadingSupport.kt:183)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:836)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:424)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithImplicitRead(AnyThreadWriteThreadingSupport.kt:122)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1162)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:78)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:119)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:41)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:728)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:750)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:696)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$16(IdeEventQueue.kt:590)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithoutImplicitRead(AnyThreadWriteThreadingSupport.kt:117)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:590)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:73)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:357)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:356)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke$lambda$0(IdeEventQueue.kt:1035)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:910)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1036)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1036)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$10(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:397)
+	at com.intellij.ide.IdeEventQueue.attachClientIdIfNeeded$lambda$27(IdeEventQueue.kt:864)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:728)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:750)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:696)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$16(IdeEventQueue.kt:590)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithoutImplicitRead(AnyThreadWriteThreadingSupport.kt:117)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:590)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:73)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:357)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:356)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke$lambda$0(IdeEventQueue.kt:1035)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:910)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1036)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1036)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$10(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:397)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+]
+2024-11-10 17:54:57,227 [  11387] SEVERE - Projected Logger - IdeaLoggingEvent[message=Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.
+
+--- EXCEPTION #1/2 [FileNotFoundException]
+“ERROR RENDERING EXCEPTION” = “
+  System.TypeLoadException: Could not load type 'System.Runtime.CompilerServices.NullableContextAttribute' from assembly 'System.Runtime, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+     at System.ModuleHandle.ResolveType(QCallModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+     at System.ModuleHandle.ResolveTypeHandle(Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+     at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+     at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctorWithParameters, Boolean& isVarArg)
+     at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+     at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+     at System.Exception.get_SerializationStackTraceString()
+     at System.Exception.GetObjectData(SerializationInfo info, StreamingContext context)
+     at System.IO.FileNotFoundException.GetObjectData(SerializationInfo info, StreamingContext context)
+     at JetBrains.Util.ExceptionRenderer.HierarchicalDataEntry.GetChildren()
+     at JetBrains.Util.ExceptionRenderer.<>c.<RenderSingleExceptionObject>b__23_0(HierarchicalDataEntry entry)
+     at JetBrains.Util.Graph.GraphAlgorithms.DepthFirstSearch[TNode](IEnumerable`1 rootcollection, Func`2 FGetLinkedNodes, PassingOnWayDownDelegate`1 FEnteringOnWayDown, Action`1 FPassingOnWayDownSimple, Action`1 FPassingOnWayUp)
+     at JetBrains.Util.ExceptionRenderer.RenderSingleExceptionObject(ExData exd, Boolean renderSensitiveData)
+     at JetBrains.Util.ExceptionRenderer.CollectExDatas(Exception exception, Boolean renderSensitiveData)
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ReSharper.Features.Running.RunnableProjectFactory.CreateRunnableProjects(IProject project) in CreateRunnableProjects.il:line IL_00A4 mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.ProjectAdded(IProject project) in ProjectAdded.il:line IL_000B mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.Refresh(IProjectMark projectMark) in Refresh.il:line IL_0069 mvid 9748
+     at JetBrains.ReSharper.Features.Running.Refreshers.SolutionHostRefresher.AfterUpdateProject(ProjectHostChange change) in AfterUpdateProject.il:line IL_001B mvid 9748
+     at JetBrains.ProjectModel.ProjectsHost.SolutionHost.Impl.SolutionHostSync.<>c__DisplayClass25_3.<UpdateProjectsImpl>b__3() in SolutionHostSync.il:line IL_0000 mvid C3E2 or SolutionHostSync.il:line IL_0068 mvid C3E2
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ProjectModel.ProjectsHost.SolutionHost.Impl.SolutionHostSync.<>c__DisplayClass25_0.<UpdateProjectsImpl>b__2() in SolutionHostSync.il:line IL_0000 mvid C3E2 or SolutionHostSync.il:line IL_0068 mvid C3E2
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerBase.<>c__DisplayClass23_0.<ExecuteTask>b__1() in SolutionLoadTasksSchedulerBase.il:line IL_0021 mvid B48E
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerBase.ExecuteTask(SolutionLoadTask task) in ExecuteTask.il:line IL_003E mvid B48E
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerAsync.<Schedule>b__6_0() in SolutionLoadTasksSchedulerAsync.il:line IL_000A mvid B48E
+     at JetBrains.Application.Threading.IShellLocksEx.ExecuteWithReadLock(IShellLocks shellLocks, Action action) in ExecuteWithReadLock.il:line IL_0027 mvid 9148
+     at JetBrains.Application.Threading.IShellLocksEx.<>c__DisplayClass11_0.<QueueReadLock>b__0()
+     at JetBrains.Threading.ReentrancyGuardEx.<>c__DisplayClass0_1.<Queue>b__3() in ReentrancyGuardEx.il:line IL_0022 mvid 6B9F
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.ReentrancyGuard.QueuedAction.<>c__DisplayClass2_0.<.ctor>b__0() in QueuedAction.il:line IL_0000 mvid 6B9F
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_0119 mvid 6B9F
+     at JetBrains.Threading.ReentrancyGuard.ExecutePendingActions() in ExecutePendingActions.il:line IL_0054 mvid 6B9F
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.ProcessQueue(Int32 nMinBucket, Int32 nProcessQueueGeneration) in ProcessQueue.il:line IL_01D0 mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.<>c__DisplayClass60_0.<ScheduleQueueProcessingOnNativeMarshaller>g__ProcessQueueWithPriority|0() in JetDispatcher.il:line IL_0000 mvid 6B9F
+     at JetBrains.Threading.RunsAndSleeps.RunOrSleep(Func`1 FCondition, IProperty`1 propCondition, TimeSpan timeout, OnWaitTimeout ontimeout) in RunOrSleep.il:line IL_03AC mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Run(IProperty`1 condition, TimeSpan timeout, Boolean bThrowOnTimeout) in Run.il:line IL_0005 mvid 6B9F
+     at JetBrains.Application.Environment.IJetHostEx.<>c__DisplayClass3_0.<RunHostMessageLoop>b__0(Lifetime lifetime) in IJetHostEx.il:line IL_0025 mvid 9148
+     at JetBrains.Lifetimes.Lifetime.Using(Action`1 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Application.Environment.IJetHostEx.RunHostMessageLoop(IComponentContainer containerEnv) in RunHostMessageLoop.il:line IL_0030 mvid 9148
+     at JetBrains.Application.Environment.HostParameters.MessagePumpMainLoopHostMixin.JetBrains.Application.Environment.HostParameters.IRunMainLoopHostMixin.RunMainLoop(ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.RunMainLoop(ComponentContainer containerEnv) in RunMainLoop.il:line IL_009F mvid 9148
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass14_0.<InternalRun>b__0() in JetEnvironment.il:line IL_0000 mvid 9148
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(OuterLifetime lifetime, String name, Action action, TaskPriority priority, Nullable`1 limit) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(String name, Action action, TaskPriority priority) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Application.Environment.JetEnvironment.InternalRun(JetHostParametersCaller host, ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_002E mvid 9148
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 9148
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_00B4 mvid 89A6
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid 89A6
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0058 mvid 89A6
+”
+, throwable=com.jetbrains.rd.platform.diagnostics.BackendException: Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.
+
+--- EXCEPTION #1/2 [FileNotFoundException]
+“ERROR RENDERING EXCEPTION” = “
+  System.TypeLoadException: Could not load type 'System.Runtime.CompilerServices.NullableContextAttribute' from assembly 'System.Runtime, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+     at System.ModuleHandle.ResolveType(QCallModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+     at System.ModuleHandle.ResolveTypeHandle(Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+     at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+     at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctorWithParameters, Boolean& isVarArg)
+     at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+     at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+     at System.Exception.get_SerializationStackTraceString()
+     at System.Exception.GetObjectData(SerializationInfo info, StreamingContext context)
+     at System.IO.FileNotFoundException.GetObjectData(SerializationInfo info, StreamingContext context)
+     at JetBrains.Util.ExceptionRenderer.HierarchicalDataEntry.GetChildren()
+     at JetBrains.Util.ExceptionRenderer.<>c.<RenderSingleExceptionObject>b__23_0(HierarchicalDataEntry entry)
+     at JetBrains.Util.Graph.GraphAlgorithms.DepthFirstSearch[TNode](IEnumerable`1 rootcollection, Func`2 FGetLinkedNodes, PassingOnWayDownDelegate`1 FEnteringOnWayDown, Action`1 FPassingOnWayDownSimple, Action`1 FPassingOnWayUp)
+     at JetBrains.Util.ExceptionRenderer.RenderSingleExceptionObject(ExData exd, Boolean renderSensitiveData)
+     at JetBrains.Util.ExceptionRenderer.CollectExDatas(Exception exception, Boolean renderSensitiveData)
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ReSharper.Features.Running.RunnableProjectFactory.CreateRunnableProjects(IProject project) in CreateRunnableProjects.il:line IL_00A4 mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.ProjectAdded(IProject project) in ProjectAdded.il:line IL_000B mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.Refresh(IProjectMark projectMark) in Refresh.il:line IL_0069 mvid 9748
+     at JetBrains.ReSharper.Features.Running.Refreshers.SolutionHostRefresher.AfterUpdateProject(ProjectHostChange change) in AfterUpdateProject.il:line IL_001B mvid 9748
+     at JetBrains.ProjectModel.ProjectsHost.SolutionHost.Impl.SolutionHostSync.<>c__DisplayClass25_3.<UpdateProjectsImpl>b__3() in SolutionHostSync.il:line IL_0000 mvid C3E2 or SolutionHostSync.il:line IL_0068 mvid C3E2
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ProjectModel.ProjectsHost.SolutionHost.Impl.SolutionHostSync.<>c__DisplayClass25_0.<UpdateProjectsImpl>b__2() in SolutionHostSync.il:line IL_0000 mvid C3E2 or SolutionHostSync.il:line IL_0068 mvid C3E2
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerBase.<>c__DisplayClass23_0.<ExecuteTask>b__1() in SolutionLoadTasksSchedulerBase.il:line IL_0021 mvid B48E
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin) in Catch.il:line IL_0000 mvid 6B9F or Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerBase.ExecuteTask(SolutionLoadTask task) in ExecuteTask.il:line IL_003E mvid B48E
+     at JetBrains.ProjectModel.Tasks.SolutionLoadTasksSchedulerAsync.<Schedule>b__6_0() in SolutionLoadTasksSchedulerAsync.il:line IL_000A mvid B48E
+     at JetBrains.Application.Threading.IShellLocksEx.ExecuteWithReadLock(IShellLocks shellLocks, Action action) in ExecuteWithReadLock.il:line IL_0027 mvid 9148
+     at JetBrains.Application.Threading.IShellLocksEx.<>c__DisplayClass11_0.<QueueReadLock>b__0()
+     at JetBrains.Threading.ReentrancyGuardEx.<>c__DisplayClass0_1.<Queue>b__3() in ReentrancyGuardEx.il:line IL_0022 mvid 6B9F
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.ReentrancyGuard.QueuedAction.<>c__DisplayClass2_0.<.ctor>b__0() in QueuedAction.il:line IL_0000 mvid 6B9F
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_0119 mvid 6B9F
+     at JetBrains.Threading.ReentrancyGuard.ExecutePendingActions() in ExecutePendingActions.il:line IL_0054 mvid 6B9F
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.ProcessQueue(Int32 nMinBucket, Int32 nProcessQueueGeneration) in ProcessQueue.il:line IL_01D0 mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.<>c__DisplayClass60_0.<ScheduleQueueProcessingOnNativeMarshaller>g__ProcessQueueWithPriority|0() in JetDispatcher.il:line IL_0000 mvid 6B9F
+     at JetBrains.Threading.RunsAndSleeps.RunOrSleep(Func`1 FCondition, IProperty`1 propCondition, TimeSpan timeout, OnWaitTimeout ontimeout) in RunOrSleep.il:line IL_03AC mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Run(IProperty`1 condition, TimeSpan timeout, Boolean bThrowOnTimeout) in Run.il:line IL_0005 mvid 6B9F
+     at JetBrains.Application.Environment.IJetHostEx.<>c__DisplayClass3_0.<RunHostMessageLoop>b__0(Lifetime lifetime) in IJetHostEx.il:line IL_0025 mvid 9148
+     at JetBrains.Lifetimes.Lifetime.Using(Action`1 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Application.Environment.IJetHostEx.RunHostMessageLoop(IComponentContainer containerEnv) in RunHostMessageLoop.il:line IL_0030 mvid 9148
+     at JetBrains.Application.Environment.HostParameters.MessagePumpMainLoopHostMixin.JetBrains.Application.Environment.HostParameters.IRunMainLoopHostMixin.RunMainLoop(ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.RunMainLoop(ComponentContainer containerEnv) in RunMainLoop.il:line IL_009F mvid 9148
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass14_0.<InternalRun>b__0() in JetEnvironment.il:line IL_0000 mvid 9148
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(OuterLifetime lifetime, String name, Action action, TaskPriority priority, Nullable`1 limit) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(String name, Action action, TaskPriority priority) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Application.Environment.JetEnvironment.InternalRun(JetHostParametersCaller host, ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_002E mvid 9148
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 9148
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_00B4 mvid 89A6
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid 89A6
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0058 mvid 89A6
+”
+
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener.fromLogEntry(LoggerModelManager.kt:60)
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener.access$fromLogEntry(LoggerModelManager.kt:23)
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener$extensionCreated$1.invoke(LoggerModelManager.kt:29)
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener$extensionCreated$1.invoke(LoggerModelManager.kt:25)
+	at com.jetbrains.rd.util.reactive.Signal.fire(Signal.kt:32)
+	at com.jetbrains.rd.framework.impl.RdSignal$onWireReceived$2.invoke(RdSignal.kt:33)
+	at com.jetbrains.rd.framework.impl.RdSignal$onWireReceived$2.invoke(RdSignal.kt:31)
+	at com.jetbrains.rd.framework.MessageBroker$RdWireableDispatchHelper$doDispatch$2.invoke(MessageBroker.kt:122)
+	at com.jetbrains.rd.framework.MessageBroker$RdWireableDispatchHelper$doDispatch$2.invoke(MessageBroker.kt:115)
+	at com.jetbrains.rdclient.protocol.RdDispatcher.flushAll(RdDispatcher.kt:112)
+	at com.jetbrains.rdclient.protocol.RdDispatcher.flushAllRunnable$lambda$0(RdDispatcher.kt:33)
+	at com.intellij.concurrency.client.ClientIdPropagation.captureClientIdInRunnable$lambda$3(ClientIdPropagation.kt:43)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:27)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:229)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runIntendedWriteActionOnCurrentThread$lambda$1(AnyThreadWriteThreadingSupport.kt:184)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runIntendedWriteActionOnCurrentThread(AnyThreadWriteThreadingSupport.kt:183)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:836)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:424)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithImplicitRead(AnyThreadWriteThreadingSupport.kt:122)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1162)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:78)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:119)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:41)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:728)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:750)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:696)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$16(IdeEventQueue.kt:590)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithoutImplicitRead(AnyThreadWriteThreadingSupport.kt:117)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:590)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:73)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:357)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:356)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke$lambda$0(IdeEventQueue.kt:1035)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:910)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1036)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1036)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$10(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:397)
+	at com.intellij.ide.IdeEventQueue.attachClientIdIfNeeded$lambda$27(IdeEventQueue.kt:864)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:728)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:750)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:696)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$16(IdeEventQueue.kt:590)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithoutImplicitRead(AnyThreadWriteThreadingSupport.kt:117)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:590)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:73)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:357)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:356)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke$lambda$0(IdeEventQueue.kt:1035)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:910)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1036)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1036)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$10(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:397)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+]
+2024-11-10 17:54:57,528 [  11688]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+
+src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+
+src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+
+src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+
+src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+
+src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+
+src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+
+src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+
+src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+
+src/gbm_drv_common.c:131: GBM-DRV error (get_bytes_per_component): Unknown or not supported format: 808530000
+
+2024-11-10 17:55:15,185 [  29345]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 17:55:15,380 [  29540]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 17:55:18,453 [  32613]   WARN - #c.i.o.a.ActionStub - ActionGroup should be registered using <group> tag: id="ShowArchitectureDiagramFromSolutionExplorerActionGroup" class="com.jetbrains.rider.diagrams.architecture.actions.ShowArchitectureDiagramFromSolutionExplorerActionGroup"
+2024-11-10 17:55:47,005 [  61165]   WARN - #c.i.u.x.Binding - No accessors for com.intellij.toolWindow.ToolWindowLayoutStorageManagerState. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
+2024-11-10 17:56:01,969 [  76129]   WARN - #c.j.r.e.RiderTextControlHost - file null doesn't exist
+2024-11-10 17:59:52,547 [ 306707]   WARN - org.apache.http.client.protocol.ResponseProcessCookies - Invalid cookie header: "Set-Cookie: _octo=GH1.1.699926646.1731279592; Path=/; Domain=github.com; Expires=Mon, 10 Nov 2025 22:59:52 GMT; Secure; SameSite=Lax". Invalid 'expires' attribute: Mon, 10 Nov 2025 22:59:52 GMT
+2024-11-10 17:59:52,547 [ 306707]   WARN - org.apache.http.client.protocol.ResponseProcessCookies - Invalid cookie header: "Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Mon, 10 Nov 2025 22:59:52 GMT; HttpOnly; Secure; SameSite=Lax". Invalid 'expires' attribute: Mon, 10 Nov 2025 22:59:52 GMT
+2024-11-10 17:59:52,974 [ 307134]   WARN - org.apache.http.client.protocol.ResponseProcessCookies - Invalid cookie header: "Set-Cookie: _octo=GH1.1.649500023.1731279592; Path=/; Domain=github.com; Expires=Mon, 10 Nov 2025 22:59:52 GMT; Secure; SameSite=Lax". Invalid 'expires' attribute: Mon, 10 Nov 2025 22:59:52 GMT
+2024-11-10 17:59:52,974 [ 307134]   WARN - org.apache.http.client.protocol.ResponseProcessCookies - Invalid cookie header: "Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Mon, 10 Nov 2025 22:59:52 GMT; HttpOnly; Secure; SameSite=Lax". Invalid 'expires' attribute: Mon, 10 Nov 2025 22:59:52 GMT
+2024-11-10 18:03:36,500 [ 530660]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 18:03:51,837 [ 545997]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 18:05:52,426 [ 666586]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 18:06:22,997 [ 697157]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 18:06:38,340 [ 712500]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 18:07:23,937 [ 758097]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 19:11:45,279 [4619439]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 21:36:52,634 [13326794]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 21:39:22,371 [13476531]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 21:39:22,423 [13476583] SEVERE - Projected Logger - IdeaLoggingEvent[message=Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.
+
+--- EXCEPTION #1/2 [FileNotFoundException]
+“ERROR RENDERING EXCEPTION” = “
+  System.TypeLoadException: Could not load type 'System.Runtime.CompilerServices.NullableContextAttribute' from assembly 'System.Runtime, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+     at System.ModuleHandle.ResolveType(QCallModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+     at System.ModuleHandle.ResolveTypeHandle(Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+     at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+     at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctorWithParameters, Boolean& isVarArg)
+     at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+     at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+     at System.Exception.get_SerializationStackTraceString()
+     at System.Exception.GetObjectData(SerializationInfo info, StreamingContext context)
+     at System.IO.FileNotFoundException.GetObjectData(SerializationInfo info, StreamingContext context)
+     at JetBrains.Util.ExceptionRenderer.HierarchicalDataEntry.GetChildren()
+     at JetBrains.Util.Graph.GraphAlgorithms.DepthFirstSearch[TNode](IEnumerable`1 rootcollection, Func`2 FGetLinkedNodes, PassingOnWayDownDelegate`1 FEnteringOnWayDown, Action`1 FPassingOnWayDownSimple, Action`1 FPassingOnWayUp)
+     at JetBrains.Util.ExceptionRenderer.RenderSingleExceptionObject(ExData exd, Boolean renderSensitiveData)
+     at JetBrains.Util.ExceptionRenderer.CollectExDatas(Exception exception, Boolean renderSensitiveData)
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ReSharper.Features.Running.RunnableProjectFactory.CreateRunnableProjects(IProject project) in CreateRunnableProjects.il:line IL_00A4 mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.ProjectAdded(IProject project) in ProjectAdded.il:line IL_000B mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.Refresh(IProjectMark projectMark) in Refresh.il:line IL_0069 mvid 9748
+     at JetBrains.ReSharper.Features.Running.Refreshers.LaunchSettingsRefresher.<>c__DisplayClass0_1.<.ctor>b__1(FileSystemChangeDelta _) in LaunchSettingsRefresher.il:line IL_0000 mvid 9748
+     at JetBrains.Application.FileSystemTracker.FileSystemTrackerImpl.DispatchChange(FileSystemChange change) in DispatchChange.il:line IL_0164 mvid 9148
+     at JetBrains.Rider.Backend.Features.FileSystem.VfsListener.DispatchChange(IList`1 deltas) in DispatchChange.il:line IL_000C mvid 89A6
+     at JetBrains.Rider.Backend.Features.FileSystem.VfsListener.HandleFileSystemChange(RdDeltaBatch deltaBatch) in HandleFileSystemChange.il:line IL_00F9 mvid 89A6
+     at JetBrains.Collections.Viewable.SignalBase`1.Fire(T value) in Fire.il:line IL_0028 mvid A5E3
+     at JetBrains.Rd.Impl.RdSignal`1.<>c__DisplayClass16_0.<OnWireReceived>b__0() in RdSignal.il:line IL_0040 mvid D0E3
+     at JetBrains.Rd.Impl.MessageBroker.RdWireableDispatchHelper.<>c__DisplayClass12_0.<DoDispatch>b__0() in RdWireableDispatchHelper.il:line IL_008B mvid D0E3
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Platform.RdFramework.Impl.RdDispatcher.<>c__DisplayClass15_0.<Queue>b__0() in RdDispatcher.il:line IL_0021 mvid FFB8
+     at JetBrains.Platform.RdFramework.Impl.RdDispatcher.FlushAll() in FlushAll.il:line IL_001B mvid FFB8
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_0119 mvid 6B9F
+     at JetBrains.Threading.ReentrancyGuard.ExecutePendingActions() in ExecutePendingActions.il:line IL_0054 mvid 6B9F
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.ProcessQueue(Int32 nMinBucket, Int32 nProcessQueueGeneration) in ProcessQueue.il:line IL_01D0 mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.<>c__DisplayClass60_0.<ScheduleQueueProcessingOnNativeMarshaller>g__ProcessQueueWithPriority|0() in JetDispatcher.il:line IL_0000 mvid 6B9F
+     at JetBrains.Threading.RunsAndSleeps.RunOrSleep(Func`1 FCondition, IProperty`1 propCondition, TimeSpan timeout, OnWaitTimeout ontimeout) in RunOrSleep.il:line IL_03AC mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Run(IProperty`1 condition, TimeSpan timeout, Boolean bThrowOnTimeout) in Run.il:line IL_0005 mvid 6B9F
+     at JetBrains.Application.Environment.IJetHostEx.<>c__DisplayClass3_0.<RunHostMessageLoop>b__0(Lifetime lifetime) in IJetHostEx.il:line IL_0025 mvid 9148
+     at JetBrains.Lifetimes.Lifetime.Using(Action`1 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Application.Environment.IJetHostEx.RunHostMessageLoop(IComponentContainer containerEnv) in RunHostMessageLoop.il:line IL_0030 mvid 9148
+     at JetBrains.Application.Environment.HostParameters.MessagePumpMainLoopHostMixin.JetBrains.Application.Environment.HostParameters.IRunMainLoopHostMixin.RunMainLoop(ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.RunMainLoop(ComponentContainer containerEnv) in RunMainLoop.il:line IL_009F mvid 9148
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass14_0.<InternalRun>b__0() in JetEnvironment.il:line IL_0000 mvid 9148
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(OuterLifetime lifetime, String name, Action action, TaskPriority priority, Nullable`1 limit) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(String name, Action action, TaskPriority priority) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Application.Environment.JetEnvironment.InternalRun(JetHostParametersCaller host, ComponentContainer containerEnv) in InternalRun.il:line IL_004A mvid 9148
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_002E mvid 9148
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 9148
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_00B4 mvid 89A6
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid 89A6
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0058 mvid 89A6
+”
+, throwable=com.jetbrains.rd.platform.diagnostics.BackendException: Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.
+
+--- EXCEPTION #1/2 [FileNotFoundException]
+“ERROR RENDERING EXCEPTION” = “
+  System.TypeLoadException: Could not load type 'System.Runtime.CompilerServices.NullableContextAttribute' from assembly 'System.Runtime, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+     at System.ModuleHandle.ResolveType(QCallModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+     at System.ModuleHandle.ResolveTypeHandle(Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+     at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+     at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctorWithParameters, Boolean& isVarArg)
+     at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+     at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+     at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+     at System.Exception.get_SerializationStackTraceString()
+     at System.Exception.GetObjectData(SerializationInfo info, StreamingContext context)
+     at System.IO.FileNotFoundException.GetObjectData(SerializationInfo info, StreamingContext context)
+     at JetBrains.Util.ExceptionRenderer.HierarchicalDataEntry.GetChildren()
+     at JetBrains.Util.Graph.GraphAlgorithms.DepthFirstSearch[TNode](IEnumerable`1 rootcollection, Func`2 FGetLinkedNodes, PassingOnWayDownDelegate`1 FEnteringOnWayDown, Action`1 FPassingOnWayDownSimple, Action`1 FPassingOnWayUp)
+     at JetBrains.Util.ExceptionRenderer.RenderSingleExceptionObject(ExData exd, Boolean renderSensitiveData)
+     at JetBrains.Util.ExceptionRenderer.CollectExDatas(Exception exception, Boolean renderSensitiveData)
+”
+
+--- Outer ---
+
+--- EXCEPTION #2/2 [LoggerException]
+Message = “Could not load file or assembly 'System.Collections, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+InnerException = “Exception #1 at Root.InnerException”
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.ILoggerEx.LogException(ILogger this, LoggingLevel level, Exception exception, ExceptionOrigin exceptionOrigin, String comment) in LogException.il:line IL_002E mvid 6B9F
+     at JetBrains.Util.ILoggerEx.Catch(ILogger thіs, Action F, ExceptionOrigin origin, LoggingLevel loggingLevel) in Catch.il:line IL_0060 mvid 6B9F
+     at JetBrains.ReSharper.Features.Running.RunnableProjectFactory.CreateRunnableProjects(IProject project) in CreateRunnableProjects.il:line IL_00A4 mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.ProjectAdded(IProject project) in ProjectAdded.il:line IL_000B mvid 9748
+     at JetBrains.ReSharper.Features.Running.RunnableProjectsHost.Refresh(IProjectMark projectMark) in Refresh.il:line IL_0069 mvid 9748
+     at JetBrains.ReSharper.Features.Running.Refreshers.LaunchSettingsRefresher.<>c__DisplayClass0_1.<.ctor>b__1(FileSystemChangeDelta _) in LaunchSettingsRefresher.il:line IL_0000 mvid 9748
+     at JetBrains.Application.FileSystemTracker.FileSystemTrackerImpl.DispatchChange(FileSystemChange change) in DispatchChange.il:line IL_0164 mvid 9148
+     at JetBrains.Rider.Backend.Features.FileSystem.VfsListener.DispatchChange(IList`1 deltas) in DispatchChange.il:line IL_000C mvid 89A6
+     at JetBrains.Rider.Backend.Features.FileSystem.VfsListener.HandleFileSystemChange(RdDeltaBatch deltaBatch) in HandleFileSystemChange.il:line IL_00F9 mvid 89A6
+     at JetBrains.Collections.Viewable.SignalBase`1.Fire(T value) in Fire.il:line IL_0028 mvid A5E3
+     at JetBrains.Rd.Impl.RdSignal`1.<>c__DisplayClass16_0.<OnWireReceived>b__0() in RdSignal.il:line IL_0040 mvid D0E3
+     at JetBrains.Rd.Impl.MessageBroker.RdWireableDispatchHelper.<>c__DisplayClass12_0.<DoDispatch>b__0() in RdWireableDispatchHelper.il:line IL_008B mvid D0E3
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Platform.RdFramework.Impl.RdDispatcher.<>c__DisplayClass15_0.<Queue>b__0() in RdDispatcher.il:line IL_0021 mvid FFB8
+     at JetBrains.Platform.RdFramework.Impl.RdDispatcher.FlushAll() in FlushAll.il:line IL_001B mvid FFB8
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.ReentrancyGuard.Execute(String name, Action action) in Execute.il:line IL_0119 mvid 6B9F
+     at JetBrains.Threading.ReentrancyGuard.ExecutePendingActions() in ExecutePendingActions.il:line IL_0054 mvid 6B9F
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.ProcessQueue(Int32 nMinBucket, Int32 nProcessQueueGeneration) in ProcessQueue.il:line IL_01D0 mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.<>c__DisplayClass60_0.<ScheduleQueueProcessingOnNativeMarshaller>g__ProcessQueueWithPriority|0() in JetDispatcher.il:line IL_0000 mvid 6B9F
+     at JetBrains.Threading.RunsAndSleeps.RunOrSleep(Func`1 FCondition, IProperty`1 propCondition, TimeSpan timeout, OnWaitTimeout ontimeout) in RunOrSleep.il:line IL_03AC mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Run(IProperty`1 condition, TimeSpan timeout, Boolean bThrowOnTimeout) in Run.il:line IL_0005 mvid 6B9F
+     at JetBrains.Application.Environment.IJetHostEx.<>c__DisplayClass3_0.<RunHostMessageLoop>b__0(Lifetime lifetime) in IJetHostEx.il:line IL_0025 mvid 9148
+     at JetBrains.Lifetimes.Lifetime.Using(Action`1 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Application.Environment.IJetHostEx.RunHostMessageLoop(IComponentContainer containerEnv) in RunHostMessageLoop.il:line IL_0030 mvid 9148
+     at JetBrains.Application.Environment.HostParameters.MessagePumpMainLoopHostMixin.JetBrains.Application.Environment.HostParameters.IRunMainLoopHostMixin.RunMainLoop(ComponentContainer containerEnv)
+     at JetBrains.Application.Environment.HostParameters.JetHostParametersCaller.RunMainLoop(ComponentContainer containerEnv) in RunMainLoop.il:line IL_009F mvid 9148
+     at JetBrains.Application.Environment.JetEnvironment.<>c__DisplayClass14_0.<InternalRun>b__0() in JetEnvironment.il:line IL_0000 mvid 9148
+     at JetBrains.Util.Concurrency.ExecutionContextEx.WithinExecutionContext(Object o) in WithinExecutionContext.il:line IL_002F mvid 6B9F
+     at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state) in RunInternal.il:line IL_0040 mvid 549D
+     at JetBrains.Threading.JetDispatcher.Closure.Execute() in Execute.il:line IL_017B mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(OuterLifetime lifetime, String name, Action action, TaskPriority priority, Nullable`1 limit) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Threading.JetDispatcher.Invoke(String name, Action action, TaskPriority priority) in Invoke.il:line IL_0000 mvid 6B9F or Invoke.il:line IL_006A mvid 6B9F
+     at JetBrains.Application.Environment.JetEnvironment.InternalRun(JetHostParametersCaller host, ComponentContainer containerEnv) in InternalRun.il:line IL_004A mvid 9148
+     at JetBrains.Application.Environment.JetEnvironment.CreateAndRun(Full hostparams) in CreateAndRun.il:line IL_002E mvid 9148
+     at JetBrains.Application.Environment.JetHostItems.CreateAndRun(Full input) in CreateAndRun.il:line IL_000E mvid 9148
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.MainX(Assembly assembly, HostInfo hostInfo, String[] args) in MainX.il:line IL_00B4 mvid 89A6
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.<>c.<Main>b__4_0(Lifetime lifetime) in RiderBackendProgram.il:line IL_002B mvid 89A6
+     at JetBrains.Lifetimes.Lifetime.Using[T](Func`2 action) in Using.il:line IL_0014 mvid A5E3
+     at JetBrains.Rider.Backend.Product.RiderBackendProgram.Main() in Main.il:line IL_0058 mvid 89A6
+”
+
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener.fromLogEntry(LoggerModelManager.kt:60)
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener.access$fromLogEntry(LoggerModelManager.kt:23)
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener$extensionCreated$1.invoke(LoggerModelManager.kt:29)
+	at com.jetbrains.rdclient.protocol.LoggerModelManager$RootListener$extensionCreated$1.invoke(LoggerModelManager.kt:25)
+	at com.jetbrains.rd.util.reactive.Signal.fire(Signal.kt:32)
+	at com.jetbrains.rd.framework.impl.RdSignal$onWireReceived$2.invoke(RdSignal.kt:33)
+	at com.jetbrains.rd.framework.impl.RdSignal$onWireReceived$2.invoke(RdSignal.kt:31)
+	at com.jetbrains.rd.framework.MessageBroker$RdWireableDispatchHelper$doDispatch$2.invoke(MessageBroker.kt:122)
+	at com.jetbrains.rd.framework.MessageBroker$RdWireableDispatchHelper$doDispatch$2.invoke(MessageBroker.kt:115)
+	at com.jetbrains.rdclient.protocol.RdDispatcher.flushAll(RdDispatcher.kt:112)
+	at com.jetbrains.rdclient.protocol.RdDispatcher.flushAllRunnable$lambda$0(RdDispatcher.kt:33)
+	at com.intellij.concurrency.client.ClientIdPropagation.captureClientIdInRunnable$lambda$3(ClientIdPropagation.kt:43)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:27)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:229)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runIntendedWriteActionOnCurrentThread$lambda$1(AnyThreadWriteThreadingSupport.kt:184)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runIntendedWriteActionOnCurrentThread(AnyThreadWriteThreadingSupport.kt:183)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:836)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:424)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithImplicitRead(AnyThreadWriteThreadingSupport.kt:122)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1162)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:78)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:119)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:41)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:728)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:750)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:696)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$16(IdeEventQueue.kt:590)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithoutImplicitRead(AnyThreadWriteThreadingSupport.kt:117)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:590)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:73)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:357)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:356)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke$lambda$0(IdeEventQueue.kt:1035)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:910)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1036)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1036)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$10(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:397)
+	at com.intellij.ide.IdeEventQueue.attachClientIdIfNeeded$lambda$27(IdeEventQueue.kt:864)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:728)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:750)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:696)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$16(IdeEventQueue.kt:590)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithoutImplicitRead(AnyThreadWriteThreadingSupport.kt:117)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:590)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:73)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:357)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:356)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke$lambda$0(IdeEventQueue.kt:1035)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:910)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1036)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1036)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$10(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:397)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+]
+2024-11-10 21:39:22,518 [13476678]   WARN - #c.i.o.v.n.RefreshSession - no files to refresh
+java.lang.Exception: no files to refresh
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.launch(RefreshSessionImpl.java:121)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:51)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:31)
+	at com.intellij.openapi.vfs.impl.local.LocalFileSystemBase.refreshFiles(LocalFileSystemBase.java:197)
+	at com.intellij.openapi.vfs.impl.local.LocalFileSystemBase.refreshIoFiles(LocalFileSystemBase.java:187)
+	at com.jetbrains.rider.ideaInterop.vfs.VfsWriteOperationsHost.b(VfsWriteOperationsHost.kt:156)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runReadAction$lambda$2(AnyThreadWriteThreadingSupport.kt:217)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runReadAction(AnyThreadWriteThreadingSupport.kt:228)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runReadAction(AnyThreadWriteThreadingSupport.kt:217)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:847)
+	at com.jetbrains.rider.ideaInterop.vfs.VfsWriteOperationsHost.refreshPaths(VfsWriteOperationsHost.kt:134)
+	at com.jetbrains.rider.ideaInterop.vfs.FileSystemModelProtocolListener$extensionCreated$7.invoke(FileSystemModelProtocolListener.kt:44)
+	at com.jetbrains.rider.ideaInterop.vfs.FileSystemModelProtocolListener$extensionCreated$7.invoke(FileSystemModelProtocolListener.kt:43)
+	at com.jetbrains.rider.ideaInterop.vfs.FileSystemModelProtocolListener$setSuspendOnBackgroundWithActionInterruption$1$1$1$1.invoke(FileSystemModelProtocolListener.kt:76)
+	at com.jetbrains.rider.document.RdCommandService.startSessionIfThereIsCommandFromBackend(PatchEngineFrontendCommandHost.kt:115)
+	at com.jetbrains.rider.ideaInterop.vfs.FileSystemModelProtocolListener.b(FileSystemModelProtocolListener.kt:63)
+	at com.jetbrains.rider.ideaInterop.vfs.FileSystemModelProtocolListener.access$executeWithCommand(FileSystemModelProtocolListener.kt:19)
+	at com.jetbrains.rider.ideaInterop.vfs.FileSystemModelProtocolListener$setSuspendOnBackgroundWithActionInterruption$1$1.b(FileSystemModelProtocolListener.kt:75)
+	at com.intellij.openapi.progress.Cancellation.computeInNonCancelableSection(Cancellation.java:62)
+	at com.jetbrains.rider.ideaInterop.vfs.FileSystemModelProtocolListener$setSuspendOnBackgroundWithActionInterruption$1$1.invokeSuspend(FileSystemModelProtocolListener.kt:74)
+	at com.jetbrains.rider.ideaInterop.vfs.FileSystemModelProtocolListener$setSuspendOnBackgroundWithActionInterruption$1$1.invoke(FileSystemModelProtocolListener.kt)
+	at com.jetbrains.rider.ideaInterop.vfs.FileSystemModelProtocolListener$setSuspendOnBackgroundWithActionInterruption$1$1.invoke(FileSystemModelProtocolListener.kt)
+	at com.jetbrains.rider.protocol.RiderActionUtilsKt$runOnSchedulerWithActionInterruption$2$1.invokeSuspend(RiderActionUtils.kt:13)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at com.jetbrains.rd.util.threading.coroutines.SchedulerCoroutineDispatcher$dispatch$1.invoke(ISchedulerCoroutineUtil.kt:8)
+	at com.jetbrains.rd.util.threading.coroutines.SchedulerCoroutineDispatcher$dispatch$1.invoke(ISchedulerCoroutineUtil.kt:8)
+	at com.jetbrains.rdclient.protocol.RdDispatcher.flushAll(RdDispatcher.kt:112)
+	at com.jetbrains.rdclient.protocol.RdDispatcher.flushAllRunnable$lambda$0(RdDispatcher.kt:33)
+	at com.intellij.concurrency.client.ClientIdPropagation.captureClientIdInRunnable$lambda$3(ClientIdPropagation.kt:43)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:27)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:229)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runIntendedWriteActionOnCurrentThread$lambda$1(AnyThreadWriteThreadingSupport.kt:184)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runIntendedWriteActionOnCurrentThread(AnyThreadWriteThreadingSupport.kt:183)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:836)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:424)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithImplicitRead(AnyThreadWriteThreadingSupport.kt:122)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithImplicitRead(ApplicationImpl.java:1162)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:78)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:119)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:41)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:728)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:750)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:696)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$16(IdeEventQueue.kt:590)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithoutImplicitRead(AnyThreadWriteThreadingSupport.kt:117)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:590)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:73)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:357)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:356)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke$lambda$0(IdeEventQueue.kt:1035)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:910)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1036)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1036)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$10(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:397)
+	at com.intellij.ide.IdeEventQueue.attachClientIdIfNeeded$lambda$27(IdeEventQueue.kt:864)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:728)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:750)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:696)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$16(IdeEventQueue.kt:590)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWithoutImplicitRead(AnyThreadWriteThreadingSupport.kt:117)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:590)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:73)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:357)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1$1.compute(IdeEventQueue.kt:356)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:843)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:356)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.invoke(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke$lambda$0(IdeEventQueue.kt:1035)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:84)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:910)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt$performActivity$runnableWithWIL$1.invoke(IdeEventQueue.kt:1035)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:1036)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1036)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$10(IdeEventQueue.kt:351)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:397)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-11-10 21:39:37,381 [13491541]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 21:39:52,394 [13506554]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 21:40:22,402 [13536562]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 21:40:22,403 [13536563]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:41:22,415 [13596575]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:42:22,422 [13656582]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 21:42:22,423 [13656583]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:42:52,431 [13686591]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:43:22,443 [13716603]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:43:37,449 [13731609]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:43:52,454 [13746614]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:44:07,459 [13761619]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:44:22,463 [13776623]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:44:37,468 [13791628]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:44:52,474 [13806634]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:45:07,479 [13821639]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:45:22,484 [13836644]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:45:37,489 [13851649]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:45:52,492 [13866652]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:46:07,497 [13881657]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:46:22,501 [13896661]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:46:37,504 [13911664]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:46:52,508 [13926668]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:47:07,512 [13941672]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:47:22,515 [13956675]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:47:37,519 [13971679]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:47:52,523 [13986683]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:48:07,528 [14001688]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:48:22,531 [14016691]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:48:37,535 [14031695]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:48:52,540 [14046700]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:49:07,545 [14061705]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:49:22,548 [14076708]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:49:37,554 [14091714]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:49:52,559 [14106719]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:50:07,564 [14121724]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:50:22,568 [14136728]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:50:37,572 [14151732]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:50:52,577 [14166737]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:51:07,582 [14181742]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:51:22,585 [14196745]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:51:37,591 [14211751]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:51:52,596 [14226756]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:52:07,601 [14241761]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:52:22,604 [14256764]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:52:37,609 [14271769]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:52:52,615 [14286775]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:53:07,620 [14301780]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:53:22,624 [14316784]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:53:37,629 [14331789]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:53:52,634 [14346794]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:54:07,639 [14361799]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:54:22,644 [14376804]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:54:37,648 [14391808]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:54:52,651 [14406811]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:55:07,656 [14421816]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:55:22,660 [14436820]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:55:37,665 [14451825]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:55:52,670 [14466830]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:56:07,675 [14481835]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:56:22,679 [14496839]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:56:37,684 [14511844]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:56:52,688 [14526848]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:57:07,691 [14541851]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:57:22,695 [14556855]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:57:37,699 [14571859]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:57:52,703 [14586863]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:58:07,708 [14601868]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:58:22,711 [14616871]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:58:37,715 [14631875]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:58:52,718 [14646878]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:59:07,724 [14661884]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:59:22,729 [14676889]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:59:37,734 [14691894]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 21:59:52,739 [14706899]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:00:07,744 [14721904]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:00:22,749 [14736909]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:00:37,754 [14751914]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:00:52,759 [14766919]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:01:07,765 [14781925]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:01:22,777 [14796937]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:01:37,781 [14811941]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:01:52,786 [14826946]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:02:07,791 [14841951]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:02:22,796 [14856956]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:02:37,801 [14871961]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:02:52,805 [14886965]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:03:07,810 [14901970]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:03:22,815 [14916975]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:03:37,818 [14931978]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:03:52,823 [14946983]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:04:07,828 [14961988]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:04:22,832 [14976992]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:04:37,836 [14991996]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:04:52,840 [15007000]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:05:07,845 [15022005]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:05:22,850 [15037010]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:05:37,855 [15052015]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:05:52,861 [15067021]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:06:07,865 [15082025]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:06:22,870 [15097030]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:06:37,875 [15112035]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:06:52,880 [15127040]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:07:07,885 [15142045]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:07:22,890 [15157050]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:07:37,893 [15172053]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:07:46,452 [15180612]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:07:47,325 [15181485]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:07:51,994 [15186154] SEVERE - #c.i.o.v.n.RefreshQueue - Do not perform a synchronous refresh under read lock (causes deadlocks if there are events to fire)
+java.lang.Throwable: Do not perform a synchronous refresh under read lock (causes deadlocks if there are events to fire)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:376)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.execute(RefreshQueueImpl.java:66)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.launch(RefreshSessionImpl.java:125)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.processEvents(RefreshQueueImpl.java:195)
+	at com.intellij.openapi.vfs.newvfs.impl.VirtualDirectoryImpl.createAndFindChildWithEventFire(VirtualDirectoryImpl.java:316)
+	at com.intellij.openapi.vfs.newvfs.impl.VirtualDirectoryImpl.findChild(VirtualDirectoryImpl.java:91)
+	at com.intellij.openapi.vfs.newvfs.impl.VirtualDirectoryImpl.refreshAndFindChild(VirtualDirectoryImpl.java:358)
+	at com.intellij.openapi.vfs.newvfs.VfsImplUtil.refreshAndFindFileByPath(VfsImplUtil.java:118)
+	at com.intellij.openapi.vfs.impl.local.LocalFileSystemBase.refreshAndFindFileByPath(LocalFileSystemBase.java:65)
+	at com.intellij.openapi.vfs.VfsUtil.findFile(VfsUtil.java:204)
+	at com.intellij.openapi.vfs.VfsUtil.findFileByIoFile(VfsUtil.java:197)
+	at com.jetbrains.rdclient.util.idea.DocumentUtilKt.toVirtualFile(DocumentUtil.kt:17)
+	at com.jetbrains.rider.projectView.baseDirectories.RiderBaseProjectDirectories.getBaseDirectories(RiderBaseProjectDirectories.kt:41)
+	at com.intellij.openapi.project.BaseProjectDirectories$Companion.getBaseDirectories(BaseProjectDirectories.kt:26)
+	at com.intellij.openapi.project.ProjectUtil.guessProjectDir(ProjectUtil.kt:147)
+	at com.intellij.openapi.wm.impl.headertoolbar.ProjectToolbarWidgetAction.update(ProjectToolbarWidgetAction.kt:79)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$performDumbAwareUpdate$runnable$1.invoke(ActionUtil.kt:202)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$performDumbAwareUpdate$runnable$1.invoke(ActionUtil.kt:196)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareUpdate(ActionUtil.kt:220)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$updateAction$success$1$1$1.invoke(ActionUpdater.kt:561)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$updateAction$success$1$1$1.invoke(ActionUpdater.kt:560)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$callAction$2$1.invoke(ActionUpdater.kt:155)
+	at com.intellij.openapi.application.rw.InternalReadAction.insideReadAction(InternalReadAction.kt:104)
+	at com.intellij.openapi.application.rw.InternalReadAction.access$insideReadAction(InternalReadAction.kt:15)
+	at com.intellij.openapi.application.rw.InternalReadAction$tryReadCancellable$2.invoke(InternalReadAction.kt:94)
+	at com.intellij.openapi.application.rw.InternalReadAction$tryReadCancellable$2.invoke(InternalReadAction.kt:93)
+	at com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal$lambda$2$lambda$1$lambda$0(cancellableReadAction.kt:31)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.tryRunReadAction(AnyThreadWriteThreadingSupport.kt:291)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:965)
+	at com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal$lambda$2$lambda$1(cancellableReadAction.kt:29)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:66)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:155)
+	at com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal(cancellableReadAction.kt:27)
+	at com.intellij.openapi.application.rw.InternalReadAction.tryReadCancellable(InternalReadAction.kt:93)
+	at com.intellij.openapi.application.rw.InternalReadAction.tryReadAction(InternalReadAction.kt:77)
+	at com.intellij.openapi.application.rw.InternalReadAction.readLoop(InternalReadAction.kt:64)
+	at com.intellij.openapi.application.rw.InternalReadAction.access$readLoop(InternalReadAction.kt:15)
+	at com.intellij.openapi.application.rw.InternalReadAction$runReadAction$3.invokeSuspend(InternalReadAction.kt:35)
+	at com.intellij.openapi.application.rw.InternalReadAction$runReadAction$3.invoke(InternalReadAction.kt)
+	at com.intellij.openapi.application.rw.InternalReadAction$runReadAction$3.invoke(InternalReadAction.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:62)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:261)
+	at com.intellij.openapi.application.rw.InternalReadAction.runReadAction(InternalReadAction.kt:34)
+	at com.intellij.openapi.application.rw.PlatformReadWriteActionSupport.executeReadAction(PlatformReadWriteActionSupport.kt:38)
+	at com.intellij.openapi.application.ReadWriteActionSupport.executeReadAction$default(ReadWriteActionSupport.kt:15)
+	at com.intellij.openapi.application.CoroutinesKt.constrainedReadActionUndispatched(coroutines.kt:82)
+	at com.intellij.openapi.application.CoroutinesKt.readActionUndispatched(coroutines.kt:69)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$callAction$$inlined$useWithScope$1.invokeSuspend(trace.kt:163)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$callAction$$inlined$useWithScope$1.invoke(trace.kt)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$callAction$$inlined$useWithScope$1.invoke(trace.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:62)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:163)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater.callAction(ActionUpdater.kt:939)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater.access$callAction(ActionUpdater.kt:85)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$updateAction$success$1$1.invokeSuspend(ActionUpdater.kt:560)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$updateAction$success$1$1.invoke(ActionUpdater.kt)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$updateAction$success$1$1.invoke(ActionUpdater.kt)
+	at com.jetbrains.rdclient.actions.base.FrontendActionUpdateInterceptor.updateAction$suspendImpl(FrontendActionUpdateInterceptor.kt:77)
+	at com.jetbrains.rdclient.actions.base.FrontendActionUpdateInterceptor.updateAction(FrontendActionUpdateInterceptor.kt)
+	at com.jetbrains.rider.actions.RiderActionUpdateInterceptor.updateAction(RiderActionUpdateInterceptor.kt:51)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$updateAction$$inlined$retryOnAwaitSharedData$1.invokeSuspend(ActionUpdater.kt:940)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$updateAction$$inlined$retryOnAwaitSharedData$1.invoke(ActionUpdater.kt)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$updateAction$$inlined$retryOnAwaitSharedData$1.invoke(ActionUpdater.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:62)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:163)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater.updateAction(ActionUpdater.kt:979)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater.expandGroupChild(ActionUpdater.kt:407)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater.access$expandGroupChild(ActionUpdater.kt:85)
+	at com.intellij.openapi.actionSystem.impl.ActionUpdater$doExpandActionGroup$2$expandResult$1$1.invokeSuspend(ActionUpdater.kt:334)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:111)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:99)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+2024-11-10 22:07:51,996 [15186156] SEVERE - #c.i.o.v.n.RefreshQueue - JetBrains Rider 2024.2.7  Build #RD-242.23726.100
+2024-11-10 22:07:51,996 [15186156] SEVERE - #c.i.o.v.n.RefreshQueue - JDK: 21.0.4; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2024-11-10 22:07:51,996 [15186156] SEVERE - #c.i.o.v.n.RefreshQueue - OS: Linux
+2024-11-10 22:07:51,996 [15186156] SEVERE - #c.i.o.v.n.RefreshQueue - Last Action: 
+2024-11-10 22:08:02,000 [15196160]   WARN - #c.i.j.ExternalResourceManagerExImpl - Cannot find standard resource. filename:/schemas/filelayout/FileLayoutSchema.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null
+2024-11-10 22:17:02,039 [15736199]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage
+2024-11-10 22:17:17,043 [15751203]   WARN - #c.i.o.v.ExternallyAddedFilesProcessorImpl - Cannot find project config directory for non-default and non-directory based project personal-webpage

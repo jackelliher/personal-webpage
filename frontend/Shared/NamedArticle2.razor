@@ -1,0 +1,69 @@
+﻿<div
+    class="alert mt-4"
+    id="container"
+    style="max-width: @(ComputedMaxWidth)px">
+    <img class="@TopLeftCornerClass" src="@CornerFramePath" alt="top left corner frame"/>
+    <img class="@TopRightCornerClass" src="@CornerFramePath" alt="top right corner frame"/>
+    <img class="@BottomLeftCornerClass" src="@CornerFramePath" alt="bottom left corner frame"/>
+    <img class="@BottomRightCornerClass" src="@CornerFramePath" alt="bottom right corner frame"/>
+    <img class="@LeftClass" src="@SideFramePath" alt="left frame"/>T
+    <img class="@RightClass" src="@SideFramePath" alt="right frame"/>
+    <img class="@TopClass" src="@TopFramePath" alt="top frame"/>
+    <img class="@BottomClass" src="@TopFramePath" alt="bottom frame"/>
+    <div class="alert-secondary">
+        <strong class="name">@Name</strong>
+
+        <article>
+            @Content
+        </article>
+    </div>
+</div>
+
+@code {
+    /// <summary>
+    /// Path of the file to be used as the corner of the frame
+    /// </summary>
+    [Parameter]
+    public string? CornerFramePath { get; set; }
+
+    /// <summary>
+    /// Path of the file to be used as the side frame
+    /// </summary>
+    [Parameter]
+    public string? SideFramePath { get; set; }
+
+    /// <summary>
+    /// Path of the file to be used as the top frame
+    /// </summary>
+    [Parameter]
+    public string? TopFramePath { get; set; }
+
+    /// <summary>
+    /// Name / title of article
+    /// </summary>
+    [Parameter]
+    public string? Name { get; set; }
+
+    /// <summary>
+    /// Article text
+    /// </summary>>
+    [Parameter]
+    public string? Content { get; set; }
+    
+    /// <summary>
+    /// The maximum width this image is allowed to assume.  Assumes a minimum width of 300px.
+    /// </summary>
+    [Parameter]
+    public int? MaxWidth { get; set; }
+
+    private int ComputedMaxWidth => MaxWidth.HasValue ? Math.Max(MaxWidth.Value, 300) : 300;
+        private const string LeftClass = "left";
+        private const string RightClass = "right";
+        private const string TopClass = "top";
+        private const string BottomClass = "bottom";
+        
+        private const string TopLeftCornerClass = "topLeftCorner";
+        private const string TopRightCornerClass = "topRightCorner";
+        private const string BottomLeftCornerClass = "bottomLeftCorner";
+        private const string BottomRightCornerClass = "bottomRightCorner";
+}
