@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-        <SelfContained>true</SelfContained>
+        <!-- <SelfContained>true</SelfContained> -->
         <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
 				<!-- <PublishSingleFile>true</PublishSingleFile> -->
         <OutputType>Exe</OutputType>

@@ -1,5 +1,4 @@
 using frontend.Configuration;
-using Microsoft.JSInterop;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +10,7 @@ builder.Services.Configure<WebpageContent>(builder.Configuration.GetSection("Web
 builder.Services.AddSingleton<ILogger>(_ =>
 {
     using var loggerFactory = LoggerFactory.Create(loggingBuilder => loggingBuilder.AddConsole());
+    Console.WriteLine("logger factory created");
     return loggerFactory.CreateLogger<ILogger>();
 });
 
